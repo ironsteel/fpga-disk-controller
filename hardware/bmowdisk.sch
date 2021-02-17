@@ -14,2374 +14,1659 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	9200 9000 9200 9100
+	10200 7000 10400 7000
 Wire Wire Line
-	13000 8500 13200 8500
+	10400 7000 10400 7200
 Wire Wire Line
-	13200 8500 13200 8700
+	11100 7200 10400 7200
+Connection ~ 10400 7200
 Wire Wire Line
-	13900 8700 13200 8700
-Connection ~ 13200 8700
-Text Label 13000 8500 0    10   ~ 0
+	10200 1900 10400 1900
+Wire Wire Line
+	10400 1900 10400 2100
+Wire Wire Line
+	9200 1900 9100 1900
+Wire Wire Line
+	9100 1900 9100 2200
+Wire Wire Line
+	9100 2200 10200 2200
+Wire Wire Line
+	10200 2200 10200 1900
+Wire Wire Line
+	9100 1900 9100 1800
+Wire Wire Line
+	9100 1800 9200 1800
+Wire Wire Line
+	11100 2100 10400 2100
+Connection ~ 10200 1900
+Connection ~ 9100 1900
+Connection ~ 10400 2100
+Wire Wire Line
+	9200 5300 9100 5300
+Wire Wire Line
+	9100 5300 9100 5600
+Wire Wire Line
+	9100 5600 10200 5600
+Wire Wire Line
+	10200 5600 10200 5300
+Wire Wire Line
+	10200 5300 10400 5300
+Wire Wire Line
+	10400 5300 10400 5500
+Wire Wire Line
+	9100 5300 9100 5200
+Wire Wire Line
+	9100 5200 9200 5200
+Wire Wire Line
+	11100 5500 10400 5500
+Connection ~ 10200 5300
+Connection ~ 9100 5300
+Connection ~ 10400 5500
+Wire Wire Line
+	9200 3600 9100 3600
+Wire Wire Line
+	9100 3600 9100 3900
+Wire Wire Line
+	9100 3900 10200 3900
+Wire Wire Line
+	10200 3900 10200 3600
+Wire Wire Line
+	10200 3600 10400 3600
+Wire Wire Line
+	10400 3600 10400 3800
+Wire Wire Line
+	9100 3600 9100 3500
+Wire Wire Line
+	9100 3500 9200 3500
+Wire Wire Line
+	11100 3800 10400 3800
+Connection ~ 10200 3600
+Connection ~ 9100 3600
+Connection ~ 10400 3800
+Text Label 9200 3600 0    10   ~ 0
 GND
 Wire Wire Line
-	13000 3400 13200 3400
+	4450 700  4450 600 
 Wire Wire Line
-	13200 3400 13200 3600
-Wire Wire Line
-	12000 3400 11900 3400
-Wire Wire Line
-	11900 3400 11900 3700
-Wire Wire Line
-	11900 3700 13000 3700
-Wire Wire Line
-	13000 3700 13000 3400
-Wire Wire Line
-	11900 3400 11900 3300
-Wire Wire Line
-	11900 3300 12000 3300
-Wire Wire Line
-	13900 3600 13200 3600
-Connection ~ 13000 3400
-Connection ~ 11900 3400
-Connection ~ 13200 3600
-Text Label 13000 3400 0    10   ~ 0
+	4450 600  5350 600 
+Text Label 4450 700  0    10   ~ 0
 GND
 Wire Wire Line
-	12000 6800 11900 6800
+	5200 4250 5200 4150
 Wire Wire Line
-	11900 6800 11900 7100
+	4900 3950 5200 3950
 Wire Wire Line
-	11900 7100 13000 7100
+	5200 3950 5200 4150
+Connection ~ 5200 4150
 Wire Wire Line
-	13000 7100 13000 6800
+	10200 1000 10300 1000
 Wire Wire Line
-	13000 6800 13200 6800
+	10200 900  10300 900 
 Wire Wire Line
-	13200 6800 13200 7000
+	10300 900  10300 1000
 Wire Wire Line
-	11900 6800 11900 6700
+	10200 800  10300 800 
 Wire Wire Line
-	11900 6700 12000 6700
+	10300 800  10300 900 
 Wire Wire Line
-	13900 7000 13200 7000
-Connection ~ 13000 6800
-Connection ~ 11900 6800
-Connection ~ 13200 7000
-Text Label 12000 6800 0    10   ~ 0
+	10300 800  10600 800 
+Connection ~ 10300 900 
+Connection ~ 10300 800 
+Text Label 10200 1000 0    10   ~ 0
 GND
 Wire Wire Line
-	12000 5100 11900 5100
-Wire Wire Line
-	11900 5100 11900 5400
-Wire Wire Line
-	11900 5400 13000 5400
-Wire Wire Line
-	13000 5400 13000 5100
-Wire Wire Line
-	13000 5100 13200 5100
-Wire Wire Line
-	13200 5100 13200 5300
-Wire Wire Line
-	11900 5100 11900 5000
-Wire Wire Line
-	11900 5000 12000 5000
-Wire Wire Line
-	13900 5300 13200 5300
-Connection ~ 13000 5100
-Connection ~ 11900 5100
-Connection ~ 13200 5300
-Text Label 12000 5100 0    10   ~ 0
-GND
-Wire Wire Line
-	6500 2200 6500 2100
-Wire Wire Line
-	6500 2100 7400 2100
-Text Label 6500 2200 0    10   ~ 0
-GND
-Wire Wire Line
-	8000 5100 8000 5000
-Wire Wire Line
-	7700 4800 8000 4800
-Wire Wire Line
-	8000 4800 8000 5000
-Connection ~ 8000 5000
-Text Label 8000 5100 0    10   ~ 0
-GND
-Wire Wire Line
-	13000 2500 13100 2500
-Wire Wire Line
-	13000 2400 13100 2400
-Wire Wire Line
-	13100 2400 13100 2500
-Wire Wire Line
-	13000 2300 13100 2300
-Wire Wire Line
-	13100 2300 13100 2400
-Wire Wire Line
-	13100 2300 13400 2300
-Connection ~ 13100 2400
-Connection ~ 13100 2300
-Text Label 13000 2500 0    10   ~ 0
-GND
-Wire Wire Line
-	8400 7200 8400 7300
-Wire Wire Line
-	7500 7000 7500 7200
-Wire Wire Line
-	7500 7200 8400 7200
-Wire Wire Line
-	8400 7200 9000 7200
-Wire Wire Line
-	9000 7200 9000 7000
-Wire Wire Line
-	9000 7200 9400 7200
-Wire Wire Line
-	9400 7200 9400 7000
-Wire Wire Line
-	7200 6900 7300 6900
-Wire Wire Line
-	7300 6900 7300 7200
-Wire Wire Line
-	7300 7200 7500 7200
-Wire Wire Line
-	10200 7200 9400 7200
-Wire Wire Line
-	10200 7200 10200 7000
-Connection ~ 8400 7200
-Connection ~ 9000 7200
-Connection ~ 7500 7200
-Connection ~ 9400 7200
-Text Label 8400 7200 0    10   ~ 0
-GND
-Wire Wire Line
-	7900 8800 7900 8900
-Text Label 7900 8800 0    10   ~ 0
-GND
-Wire Wire Line
-	7500 8000 8100 8000
-Text Label 7600 8000 0    70   ~ 0
-GND
-Wire Wire Line
-	9200 9400 9200 9500
-Text Label 9200 9400 0    10   ~ 0
-GND
-Wire Wire Line
-	4700 8400 4700 8300
-Wire Wire Line
-	4700 8300 4900 8300
-Wire Wire Line
-	4400 8400 4700 8400
-Connection ~ 4700 8400
-Text Label 4700 8400 0    10   ~ 0
-GND
-Wire Wire Line
-	900  7000 1400 7000
-Wire Wire Line
-	1400 7000 1900 7000
-Wire Wire Line
-	1900 7000 2400 7000
-Wire Wire Line
-	2400 7000 2900 7000
-Wire Wire Line
-	2900 7000 3400 7000
-Wire Wire Line
-	3400 7000 3900 7000
-Wire Wire Line
-	3900 7000 4400 7000
-Wire Wire Line
-	4400 7000 4900 7000
-Wire Wire Line
-	4900 7000 5400 7000
-Wire Wire Line
-	5400 7000 5900 7000
-Wire Wire Line
-	3400 7000 3400 7100
-Connection ~ 1400 7000
-Connection ~ 1900 7000
-Connection ~ 2400 7000
-Connection ~ 2900 7000
-Connection ~ 3400 7000
-Connection ~ 3900 7000
-Connection ~ 4400 7000
-Connection ~ 4900 7000
-Connection ~ 5400 7000
-Text Label 900  7000 0    10   ~ 0
-GND
-Wire Wire Line
-	1300 2800 700  2800
-Text Label 700  2800 0    70   ~ 0
-GND
-Wire Wire Line
-	1300 4400 700  4400
-Text Label 700  4400 0    70   ~ 0
-GND
-Wire Wire Line
-	2900 5600 2900 6100
-Text Label 2900 6100 1    70   ~ 0
-GND
-Wire Wire Line
-	4000 5600 4000 6100
-Text Label 4000 6100 1    70   ~ 0
-GND
-Wire Wire Line
-	5500 4200 6000 4200
-Text Label 5600 4200 0    70   ~ 0
-GND
-Wire Wire Line
-	5500 2600 6000 2600
-Text Label 5600 2600 0    70   ~ 0
-GND
-Wire Wire Line
-	4300 1400 4300 900 
-Text Label 4300 1300 1    70   ~ 0
-GND
-Wire Wire Line
-	3000 1400 3000 900 
-Text Label 3000 1300 1    70   ~ 0
-GND
-Wire Wire Line
-	7400 4400 6900 4400
-Text Label 7000 4400 0    70   ~ 0
+	5350 2900 4850 2900
+Text Label 4950 2900 0    70   ~ 0
 D0
 Wire Wire Line
-	13400 8100 13000 8100
-Text Label 13200 8100 0    70   ~ 0
+	10600 6600 10200 6600
+Text Label 10400 6600 0    70   ~ 0
 D0
 Wire Wire Line
-	7400 4300 6900 4300
-Text Label 7000 4300 0    70   ~ 0
+	5350 2800 4850 2800
+Text Label 4950 2800 0    70   ~ 0
 D1
 Wire Wire Line
-	13400 8000 13000 8000
-Text Label 13200 8000 0    70   ~ 0
+	10600 6500 10200 6500
+Text Label 10400 6500 0    70   ~ 0
 D1
 Wire Wire Line
-	7400 4200 6900 4200
-Text Label 7000 4200 0    70   ~ 0
+	5350 2700 4850 2700
+Text Label 4950 2700 0    70   ~ 0
 D2
 Wire Wire Line
-	13400 7900 13000 7900
-Text Label 13200 7900 0    70   ~ 0
+	10600 6400 10200 6400
+Text Label 10400 6400 0    70   ~ 0
 D2
 Wire Wire Line
-	6900 4100 7400 4100
-Text Label 7000 4100 0    70   ~ 0
+	4850 2600 5350 2600
+Text Label 4950 2600 0    70   ~ 0
 D3
 Wire Wire Line
-	13400 7800 13000 7800
-Text Label 13200 7800 0    70   ~ 0
+	10600 6300 10200 6300
+Text Label 10400 6300 0    70   ~ 0
 D3
 Wire Wire Line
-	6900 4000 7400 4000
-Text Label 7000 4000 0    70   ~ 0
+	4850 2500 5350 2500
+Text Label 4950 2500 0    70   ~ 0
 D4
 Wire Wire Line
-	13400 7700 13000 7700
-Text Label 13200 7700 0    70   ~ 0
+	10600 6200 10200 6200
+Text Label 10400 6200 0    70   ~ 0
 D4
 Wire Wire Line
-	6900 3900 7400 3900
-Text Label 7000 3900 0    70   ~ 0
+	4850 2400 5350 2400
+Text Label 4950 2400 0    70   ~ 0
 D5
 Wire Wire Line
-	13400 7600 13000 7600
-Text Label 13200 7600 0    70   ~ 0
+	10600 6100 10200 6100
+Text Label 10400 6100 0    70   ~ 0
 D5
 Wire Wire Line
-	6900 3800 7400 3800
-Text Label 7000 3800 0    70   ~ 0
+	4850 2300 5350 2300
+Text Label 4950 2300 0    70   ~ 0
 D6
 Wire Wire Line
-	13400 7500 13000 7500
-Text Label 13200 7500 0    70   ~ 0
+	10600 6000 10200 6000
+Text Label 10400 6000 0    70   ~ 0
 D6
 Wire Wire Line
-	6900 3700 7400 3700
-Text Label 7000 3700 0    70   ~ 0
+	4850 2200 5350 2200
+Text Label 4950 2200 0    70   ~ 0
 D7
 Wire Wire Line
-	13000 7400 13400 7400
-Text Label 13200 7400 0    70   ~ 0
+	10200 5900 10600 5900
+Text Label 10400 5900 0    70   ~ 0
 D7
 Wire Wire Line
-	12000 7400 11500 7400
-Text Label 11600 7400 0    70   ~ 0
+	9200 5900 8700 5900
+Text Label 8800 5900 0    70   ~ 0
 D7_33
 Wire Wire Line
-	5500 4600 6000 4600
-Text Label 5600 4600 0    70   ~ 0
-D7_33
-Wire Wire Line
-	11500 7500 12000 7500
-Text Label 11600 7500 0    70   ~ 0
+	8700 6000 9200 6000
+Text Label 8800 6000 0    70   ~ 0
 D6_33
 Wire Wire Line
-	5500 4700 6000 4700
-Text Label 5600 4700 0    70   ~ 0
-D6_33
-Wire Wire Line
-	11500 7600 12000 7600
-Text Label 11600 7600 0    70   ~ 0
+	8700 6100 9200 6100
+Text Label 8800 6100 0    70   ~ 0
 D5_33
 Wire Wire Line
-	4300 5600 4300 6100
-Text Label 4300 6100 1    70   ~ 0
-D5_33
-Wire Wire Line
-	11500 7700 12000 7700
-Text Label 11600 7700 0    70   ~ 0
+	8700 6200 9200 6200
+Text Label 8800 6200 0    70   ~ 0
 D4_33
 Wire Wire Line
-	3500 5600 3500 6100
-Text Label 3500 6100 1    70   ~ 0
-D4_33
-Wire Wire Line
-	11500 7800 12000 7800
-Text Label 11600 7800 0    70   ~ 0
+	8700 6300 9200 6300
+Text Label 8800 6300 0    70   ~ 0
 D3_33
 Wire Wire Line
-	3400 5600 3400 6100
-Text Label 3400 6100 1    70   ~ 0
-D3_33
-Wire Wire Line
-	11500 7900 12000 7900
-Text Label 11600 7900 0    70   ~ 0
+	8700 6400 9200 6400
+Text Label 8800 6400 0    70   ~ 0
 D2_33
 Wire Wire Line
-	3300 5600 3300 6100
-Text Label 3300 6100 1    70   ~ 0
-D2_33
-Wire Wire Line
-	11500 8000 12000 8000
-Text Label 11600 8000 0    70   ~ 0
+	8700 6500 9200 6500
+Text Label 8800 6500 0    70   ~ 0
 D1_33
 Wire Wire Line
-	3200 5600 3200 6100
-Text Label 3200 6100 1    70   ~ 0
-D1_33
-Wire Wire Line
-	11500 8100 12000 8100
-Text Label 11600 8100 0    70   ~ 0
+	8700 6600 9200 6600
+Text Label 8800 6600 0    70   ~ 0
 D0_33
 Wire Wire Line
-	3100 5600 3100 6100
-Text Label 3100 6100 1    70   ~ 0
-D0_33
+	10200 6900 11100 6900
 Wire Wire Line
-	13000 8400 13900 8400
+	11100 6900 11100 6800
+Connection ~ 11100 6900
 Wire Wire Line
-	13900 8400 13900 8300
-Connection ~ 13900 8400
-Text Label 13000 8400 0    10   ~ 0
+	10200 3500 11100 3500
+Wire Wire Line
+	11100 3500 11100 3400
+Connection ~ 11100 3500
+Text Label 10200 3500 0    10   ~ 0
 VCC
 Wire Wire Line
-	13000 5000 13900 5000
+	10200 5200 11100 5200
 Wire Wire Line
-	13900 5000 13900 4900
-Connection ~ 13900 5000
-Text Label 13000 5000 0    10   ~ 0
+	11100 5200 11100 5100
+Connection ~ 11100 5200
+Wire Wire Line
+	10200 1800 11100 1800
+Wire Wire Line
+	11100 1800 11100 1700
+Connection ~ 11100 1800
+Wire Wire Line
+	8500 6500 8500 6400
+Text Label 8500 6500 0    10   ~ 0
 VCC
 Wire Wire Line
-	13000 6700 13900 6700
-Wire Wire Line
-	13900 6700 13900 6600
-Connection ~ 13900 6700
-Text Label 13000 6700 0    10   ~ 0
-VCC
-Wire Wire Line
-	13000 3300 13900 3300
-Wire Wire Line
-	13900 3300 13900 3200
-Connection ~ 13900 3300
-Text Label 13000 3300 0    10   ~ 0
-VCC
-Wire Wire Line
-	9000 6600 9000 6700
-Wire Wire Line
-	8700 6600 9000 6600
-Wire Wire Line
-	9400 6600 9400 6700
-Wire Wire Line
-	9000 6600 9400 6600
-Wire Wire Line
-	9000 6600 9000 6500
-Connection ~ 9400 6600
-Connection ~ 9000 6600
-Text Label 9000 6600 0    10   ~ 0
-VCC
-Wire Wire Line
-	5700 7700 5900 7700
-Wire Wire Line
-	5900 7700 5900 7600
-Wire Wire Line
-	5700 7900 5900 7900
-Wire Wire Line
-	5900 7900 5900 7700
-Connection ~ 5900 7700
-Text Label 5700 7700 0    10   ~ 0
-VCC
-Wire Wire Line
-	4400 8100 4900 8100
-Connection ~ 4400 8100
-Text Label 4400 8100 0    10   ~ 0
-VCC
-Wire Wire Line
-	11300 8000 11300 7900
-Text Label 11300 8000 0    10   ~ 0
-VCC
-Wire Wire Line
-	12000 8500 11500 8500
-Text Label 11600 8500 0    70   ~ 0
+	9200 7000 8700 7000
+Text Label 8800 7000 0    70   ~ 0
 RW
 Wire Wire Line
-	9200 2800 9700 2800
-Text Label 9300 2800 0    70   ~ 0
+	7150 1300 7650 1300
+Text Label 7250 1300 0    70   ~ 0
 RW
 Wire Wire Line
-	13400 4000 13000 4000
-Text Label 13100 4000 0    70   ~ 0
+	10600 2500 10200 2500
+Text Label 10300 2500 0    70   ~ 0
 RW
 Wire Wire Line
-	7400 3600 6900 3600
-Text Label 7000 3600 0    70   ~ 0
+	5350 2100 4850 2100
+Text Label 4950 2100 0    70   ~ 0
 /DEVSEL
 Wire Wire Line
-	13000 2600 13400 2600
-Text Label 13100 2600 0    70   ~ 0
+	10200 1100 10600 1100
+Text Label 10300 1100 0    70   ~ 0
 /DEVSEL
 Wire Wire Line
-	7400 3200 7100 3200
-Text Label 7200 3200 0    70   ~ 0
+	5350 1700 5050 1700
+Text Label 5150 1700 0    70   ~ 0
 Q3
 Wire Wire Line
-	6700 3200 6400 3200
-Text Label 6500 3200 0    70   ~ 0
+	4650 1700 4350 1700
+Text Label 4450 1700 0    70   ~ 0
 Q3R
 Wire Wire Line
-	13400 4200 13000 4200
-Text Label 13100 4200 0    70   ~ 0
+	10600 2700 10200 2700
+Text Label 10300 2700 0    70   ~ 0
 Q3R
 Wire Wire Line
-	6900 3100 7400 3100
-Text Label 7000 3100 0    70   ~ 0
+	4850 1600 5350 1600
+Text Label 4950 1600 0    70   ~ 0
 7M
 Wire Wire Line
-	13400 4100 13000 4100
-Text Label 13100 4100 0    70   ~ 0
+	10600 2600 10200 2600
+Text Label 10300 2600 0    70   ~ 0
 7M
 Wire Wire Line
-	6900 2600 7400 2600
-Text Label 7000 2600 0    70   ~ 0
+	4850 1100 5350 1100
+Text Label 4950 1100 0    70   ~ 0
 /RESET
 Wire Wire Line
-	13400 2900 13000 2900
-Text Label 13100 2900 0    70   ~ 0
+	10600 1400 10200 1400
+Text Label 10300 1400 0    70   ~ 0
 /RESET
 Wire Wire Line
-	9200 2600 9700 2600
-Text Label 9300 2600 0    70   ~ 0
+	7150 1100 7350 1100
+Text Label 7150 1100 0    70   ~ 0
 /IOSTROBE
 Wire Wire Line
-	13400 3000 13000 3000
-Text Label 13100 3000 0    70   ~ 0
+	10600 1500 10200 1500
+Text Label 10300 1500 0    70   ~ 0
 /IOSTROBE
 Wire Wire Line
-	9200 4500 9700 4500
-Text Label 9300 4500 0    70   ~ 0
+	7150 3000 7650 3000
+Text Label 7250 3000 0    70   ~ 0
 /IOSELECT
 Wire Wire Line
-	13000 6400 13400 6400
-Text Label 13100 6400 0    70   ~ 0
+	10200 4900 10600 4900
+Text Label 10300 4900 0    70   ~ 0
 /IOSELECT
 Wire Wire Line
-	9700 4400 9200 4400
-Text Label 9300 4400 0    70   ~ 0
+	7650 2900 7150 2900
+Text Label 7250 2900 0    70   ~ 0
 A0
 Wire Wire Line
-	13000 6300 13400 6300
-Text Label 13100 6300 0    70   ~ 0
+	10200 4800 10600 4800
+Text Label 10300 4800 0    70   ~ 0
 A0
 Wire Wire Line
-	9700 4300 9200 4300
-Text Label 9300 4300 0    70   ~ 0
+	7650 2800 7150 2800
+Text Label 7250 2800 0    70   ~ 0
 A1
 Wire Wire Line
-	13400 6200 13000 6200
-Text Label 13100 6200 0    70   ~ 0
+	10600 4700 10200 4700
+Text Label 10300 4700 0    70   ~ 0
 A1
 Wire Wire Line
-	9700 4200 9200 4200
-Text Label 9300 4200 0    70   ~ 0
+	7650 2700 7150 2700
+Text Label 7250 2700 0    70   ~ 0
 A2
 Wire Wire Line
-	13400 6100 13000 6100
-Text Label 13100 6100 0    70   ~ 0
+	10600 4600 10200 4600
+Text Label 10300 4600 0    70   ~ 0
 A2
 Wire Wire Line
-	9700 4100 9200 4100
-Text Label 9300 4100 0    70   ~ 0
+	7650 2600 7150 2600
+Text Label 7250 2600 0    70   ~ 0
 A3
 Wire Wire Line
-	13400 6000 13000 6000
-Text Label 13100 6000 0    70   ~ 0
+	10600 4500 10200 4500
+Text Label 10300 4500 0    70   ~ 0
 A3
 Wire Wire Line
-	9700 4000 9200 4000
-Text Label 9300 4000 0    70   ~ 0
+	7650 2500 7150 2500
+Text Label 7250 2500 0    70   ~ 0
 A4
 Wire Wire Line
-	13400 5900 13000 5900
-Text Label 13100 5900 0    70   ~ 0
+	10600 4400 10200 4400
+Text Label 10300 4400 0    70   ~ 0
 A4
 Wire Wire Line
-	9700 3900 9200 3900
-Text Label 9300 3900 0    70   ~ 0
+	7650 2400 7150 2400
+Text Label 7250 2400 0    70   ~ 0
 A5
 Wire Wire Line
-	13400 5800 13000 5800
-Text Label 13100 5800 0    70   ~ 0
+	10600 4300 10200 4300
+Text Label 10300 4300 0    70   ~ 0
 A5
 Wire Wire Line
-	9700 3800 9200 3800
-Text Label 9300 3800 0    70   ~ 0
+	7650 2300 7150 2300
+Text Label 7250 2300 0    70   ~ 0
 A6
 Wire Wire Line
-	13400 5700 13000 5700
-Text Label 13100 5700 0    70   ~ 0
+	10600 4200 10200 4200
+Text Label 10300 4200 0    70   ~ 0
 A6
 Wire Wire Line
-	9700 3700 9200 3700
-Text Label 9300 3700 0    70   ~ 0
+	7650 2200 7150 2200
+Text Label 7250 2200 0    70   ~ 0
 A7
 Wire Wire Line
-	13400 4700 13000 4700
-Text Label 13100 4700 0    70   ~ 0
+	10600 3200 10200 3200
+Text Label 10300 3200 0    70   ~ 0
 A7
 Wire Wire Line
-	9700 3600 9200 3600
-Text Label 9300 3600 0    70   ~ 0
+	7650 2100 7150 2100
+Text Label 7250 2100 0    70   ~ 0
 A8
 Wire Wire Line
-	13400 4600 13000 4600
-Text Label 13100 4600 0    70   ~ 0
+	10600 3100 10200 3100
+Text Label 10300 3100 0    70   ~ 0
 A8
 Wire Wire Line
-	9700 3500 9200 3500
-Text Label 9300 3500 0    70   ~ 0
+	7650 2000 7150 2000
+Text Label 7250 2000 0    70   ~ 0
 A9
 Wire Wire Line
-	13400 4500 13000 4500
-Text Label 13100 4500 0    70   ~ 0
+	10600 3000 10200 3000
+Text Label 10300 3000 0    70   ~ 0
 A9
 Wire Wire Line
-	9700 3400 9200 3400
-Text Label 9300 3400 0    70   ~ 0
+	7650 1900 7150 1900
+Text Label 7250 1900 0    70   ~ 0
 A10
 Wire Wire Line
-	13400 4400 13000 4400
-Text Label 13100 4400 0    70   ~ 0
+	10600 2900 10200 2900
+Text Label 10300 2900 0    70   ~ 0
 A10
 Wire Wire Line
-	9700 3300 9200 3300
-Text Label 9300 3300 0    70   ~ 0
+	7650 1800 7150 1800
+Text Label 7250 1800 0    70   ~ 0
 A11
 Wire Wire Line
-	13400 4300 13000 4300
-Text Label 13100 4300 0    70   ~ 0
+	10600 2800 10200 2800
+Text Label 10300 2800 0    70   ~ 0
 A11
 Wire Wire Line
-	7700 2200 8900 2200
+	5650 700  6850 700 
 Wire Wire Line
-	7700 2300 8900 2300
+	5650 800  6850 800 
 Wire Wire Line
-	9200 2100 9700 2100
-Text Label 9300 2100 0    70   ~ 0
+	7150 600  7300 600 
+Text Label 7300 600  0    70   ~ 0
 5V
 Wire Wire Line
-	8000 5500 7600 5500
-Text Label 7600 5500 0    70   ~ 0
+	5200 4650 4800 4650
+Text Label 4800 4650 0    70   ~ 0
 5V
 Wire Wire Line
-	13800 2200 13800 1900
-Text Label 13800 2100 1    70   ~ 0
+	11000 700  11000 400 
+Text Label 11000 600  1    70   ~ 0
 5V
 Wire Wire Line
-	14200 2200 14200 1900
-Text Label 14200 2100 1    70   ~ 0
+	11400 700  11400 400 
+Text Label 11400 600  1    70   ~ 0
 5V
 Wire Wire Line
-	7900 6600 7800 6600
-Wire Wire Line
-	7800 6600 7500 6600
-Wire Wire Line
-	7900 6800 7800 6800
-Wire Wire Line
-	7800 6800 7800 6600
-Wire Wire Line
-	7500 6700 7500 6600
-Wire Wire Line
-	7200 6800 7300 6800
-Wire Wire Line
-	7300 6800 7300 6600
-Wire Wire Line
-	7300 6600 7500 6600
-Text Label 7600 6600 0    70   ~ 0
-5V
-Connection ~ 7800 6600
-Connection ~ 7500 6600
-Wire Wire Line
-	8600 5000 9100 5000
-Text Label 8700 5000 0    70   ~ 0
+	5800 4150 6300 4150
+Text Label 5900 4150 0    70   ~ 0
 PH0
 Wire Wire Line
-	3800 1400 3800 900 
-Text Label 3800 1300 1    70   ~ 0
-PH0
-Wire Wire Line
-	8600 5100 9100 5100
-Text Label 8700 5100 0    70   ~ 0
+	5800 4250 6300 4250
+Text Label 5900 4250 0    70   ~ 0
 PH1
 Wire Wire Line
-	3700 1400 3700 900 
-Text Label 3700 1300 1    70   ~ 0
-PH1
-Wire Wire Line
-	8600 5200 9100 5200
-Text Label 8700 5200 0    70   ~ 0
+	5800 4350 6300 4350
+Text Label 5900 4350 0    70   ~ 0
 PH2
 Wire Wire Line
-	3600 1400 3600 900 
-Text Label 3600 1300 1    70   ~ 0
-PH2
-Wire Wire Line
-	8600 5300 9100 5300
-Text Label 8700 5300 0    70   ~ 0
+	5800 4450 6300 4450
+Text Label 5900 4450 0    70   ~ 0
 PH3
 Wire Wire Line
-	3500 1400 3500 900 
-Text Label 3500 1300 1    70   ~ 0
-PH3
-Wire Wire Line
-	8600 5400 9100 5400
-Text Label 8700 5400 0    70   ~ 0
+	5800 4550 6300 4550
+Text Label 5900 4550 0    70   ~ 0
 /WREQ
 Wire Wire Line
-	3400 1400 3400 900 
-Text Label 3400 1300 1    70   ~ 0
-/WREQ
-Wire Wire Line
-	8600 5500 9200 5500
-Text Label 8700 5500 0    70   ~ 0
+	5800 4650 6400 4650
+Text Label 5900 4650 0    70   ~ 0
 SEL
 Wire Wire Line
-	4400 1400 4400 900 
-Text Label 4400 1300 1    70   ~ 0
-SEL
-Wire Wire Line
-	8600 5600 9100 5600
-Text Label 8700 5600 0    70   ~ 0
+	5800 4750 6300 4750
+Text Label 5900 4750 0    70   ~ 0
 /ENABLE1
 Wire Wire Line
-	4000 1400 4000 900 
-Text Label 4000 1300 1    70   ~ 0
-/ENABLE1
-Wire Wire Line
-	8600 5700 9100 5700
-Text Label 8700 5700 0    70   ~ 0
+	5800 4850 6300 4850
+Text Label 5900 4850 0    70   ~ 0
 RDDATA
 Wire Wire Line
-	13000 2700 13800 2700
+	10200 1200 11000 1200
 Wire Wire Line
-	13800 2700 13800 2600
-Text Label 13100 2700 0    70   ~ 0
+	11000 1200 11000 1100
+Text Label 10300 1200 0    70   ~ 0
 RDDATA
 Wire Wire Line
-	8600 5800 9100 5800
-Text Label 8700 5800 0    70   ~ 0
+	5800 4950 6300 4950
+Text Label 5900 4950 0    70   ~ 0
 WRDATA
 Wire Wire Line
-	3900 1400 3900 900 
-Text Label 3900 1300 1    70   ~ 0
-WRDATA
-Wire Wire Line
-	8600 5900 9100 5900
-Text Label 8700 5900 0    70   ~ 0
+	5800 5050 6300 5050
+Text Label 5900 5050 0    70   ~ 0
 SENSE
 Wire Wire Line
-	13000 2800 14200 2800
+	10200 1300 11400 1300
 Wire Wire Line
-	14200 2800 14200 2600
-Text Label 13100 2800 0    70   ~ 0
+	11400 1300 11400 1100
+Text Label 10300 1300 0    70   ~ 0
 SENSE
 Wire Wire Line
-	8000 5300 7500 5300
-Text Label 7600 5300 0    70   ~ 0
+	5200 4450 4700 4450
+Text Label 4800 4450 0    70   ~ 0
 /EN35
 Wire Wire Line
-	2400 1400 2400 900 
-Text Label 2400 1300 1    70   ~ 0
-/EN35
-Wire Wire Line
-	7500 5200 8000 5200
-Text Label 7600 5200 0    70   ~ 0
+	4700 4350 5200 4350
+Text Label 4800 4350 0    70   ~ 0
 /ENABLE2
 Wire Wire Line
-	2300 1400 2300 900 
-Text Label 2300 1300 1    70   ~ 0
-/ENABLE2
-Wire Wire Line
-	8000 5400 7600 5400
-Text Label 7600 5400 0    70   ~ 0
+	5200 4550 4800 4550
+Text Label 4800 4550 0    70   ~ 0
 -12V
 Wire Wire Line
-	7400 2800 6900 2800
-Text Label 7000 2800 0    70   ~ 0
+	5350 1300 4850 1300
+Text Label 4950 1300 0    70   ~ 0
 -12V
 Wire Wire Line
-	8000 5600 7600 5600
+	5200 4750 4800 4750
 Wire Wire Line
-	8000 5700 8000 5600
-Connection ~ 8000 5600
-Text Label 7600 5600 0    70   ~ 0
+	5200 4850 5200 4750
+Connection ~ 5200 4750
+Text Label 4800 4750 0    70   ~ 0
 12V
 Wire Wire Line
-	7400 4500 6900 4500
-Text Label 7000 4500 0    70   ~ 0
+	5350 3000 4850 3000
+Text Label 4950 3000 0    70   ~ 0
 12V
 Wire Wire Line
-	7500 8200 7900 8200
-Wire Wire Line
-	7900 8200 7900 8400
-Text Label 7600 8200 0    70   ~ 0
-TCK
-Wire Wire Line
-	3100 1400 3100 900 
-Text Label 3100 1300 1    70   ~ 0
-TCK
-Wire Wire Line
-	7500 8300 7800 8300
-Text Label 7600 8300 0    70   ~ 0
-TMS
-Wire Wire Line
-	3200 1400 3200 900 
-Text Label 3200 1300 1    70   ~ 0
-TMS
-Wire Wire Line
-	7500 8100 7900 8100
-Text Label 7600 8100 0    70   ~ 0
-TDI
-Wire Wire Line
-	2800 1400 2800 900 
-Text Label 2800 1300 1    70   ~ 0
-TDI
-Wire Wire Line
-	7500 7900 7900 7900
-Text Label 7600 7900 0    70   ~ 0
-TDO
-Wire Wire Line
-	2700 1400 2700 900 
-Text Label 2700 1300 1    70   ~ 0
-TDO
-Wire Wire Line
-	10000 6600 10200 6600
-Wire Wire Line
-	10200 6600 10200 6700
-Wire Wire Line
-	10200 6600 10600 6600
-Connection ~ 10200 6600
-Text Label 10200 6600 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	900  6700 1400 6700
-Wire Wire Line
-	1400 6700 1900 6700
-Wire Wire Line
-	1900 6700 2400 6700
-Wire Wire Line
-	2400 6700 2900 6700
-Wire Wire Line
-	2900 6700 3400 6700
-Wire Wire Line
-	3400 6700 3900 6700
-Wire Wire Line
-	3900 6700 4400 6700
-Wire Wire Line
-	4400 6700 4900 6700
-Wire Wire Line
-	4900 6700 5400 6700
-Wire Wire Line
-	5400 6700 5900 6700
-Wire Wire Line
-	3400 6700 3400 6400
-Connection ~ 1400 6700
-Connection ~ 1900 6700
-Connection ~ 2400 6700
-Connection ~ 2900 6700
-Connection ~ 3400 6700
-Connection ~ 3900 6700
-Connection ~ 4400 6700
-Connection ~ 4900 6700
-Connection ~ 5400 6700
-Text Label 3400 6600 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	1300 2700 700  2700
-Text Label 700  2700 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	1300 3300 700  3300
-Text Label 700  3300 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	1300 4500 700  4500
-Text Label 700  4500 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	5500 4300 6000 4300
-Text Label 5600 4300 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	5500 2500 6000 2500
-Text Label 5600 2500 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	4200 1400 4200 900 
-Text Label 4200 1300 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	2900 1400 2900 900 
-Text Label 2900 1300 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	2200 1400 2200 900 
-Text Label 2200 1300 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	2200 5600 2200 6100
-Text Label 2200 6100 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	4200 5600 4200 6100
-Text Label 4200 6100 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	4600 5600 4600 6100
-Text Label 4600 6100 1    70   ~ 0
-VCC_F
-Wire Wire Line
-	7500 7800 8100 7800
-Text Label 7600 7800 0    70   ~ 0
-VCC_F
-Wire Wire Line
-	9000 8500 9200 8500
-Wire Wire Line
-	9200 8500 9200 8600
-Text Label 9100 8500 0    70   ~ 0
-DBG7
-Wire Wire Line
-	1300 4700 700  4700
-Text Label 700  4700 0    70   ~ 0
-DBG7
-Wire Wire Line
-	9000 8400 9400 8400
-Text Label 9100 8400 0    70   ~ 0
-DBG6
-Wire Wire Line
-	1300 4600 700  4600
-Text Label 700  4600 0    70   ~ 0
-DBG6
-Wire Wire Line
-	9400 8300 9000 8300
-Text Label 9100 8300 0    70   ~ 0
-DBG5
-Wire Wire Line
-	1300 3900 700  3900
-Text Label 700  3900 0    70   ~ 0
-DBG5
-Wire Wire Line
-	9400 8200 9000 8200
-Text Label 9100 8200 0    70   ~ 0
-DBG4
-Wire Wire Line
-	1300 3800 700  3800
-Text Label 700  3800 0    70   ~ 0
-DBG4
-Wire Wire Line
-	9400 8100 9000 8100
-Text Label 9100 8100 0    70   ~ 0
-DBG3
-Wire Wire Line
-	1300 3700 700  3700
-Text Label 700  3700 0    70   ~ 0
-DBG3
-Wire Wire Line
-	9400 8000 9000 8000
-Text Label 9100 8000 0    70   ~ 0
-DBG2
-Wire Wire Line
-	1300 3600 700  3600
-Text Label 700  3600 0    70   ~ 0
-DBG2
-Wire Wire Line
-	9400 7900 9000 7900
-Text Label 9100 7900 0    70   ~ 0
-DBG1
-Wire Wire Line
-	1300 3500 700  3500
-Text Label 700  3500 0    70   ~ 0
-DBG1
-Wire Wire Line
-	9400 7800 9000 7800
-Text Label 9100 7800 0    70   ~ 0
-DBG0
-Wire Wire Line
-	1300 3400 700  3400
-Text Label 700  3400 0    70   ~ 0
-DBG0
-Wire Wire Line
-	11300 8400 12000 8400
-Text Label 11600 8400 0    70   ~ 0
+	8500 6900 9200 6900
+Text Label 8800 6900 0    70   ~ 0
 EN245
 Wire Wire Line
-	2600 5600 2600 6100
-Text Label 2600 6100 1    70   ~ 0
-EN245
-Wire Wire Line
-	5700 8300 6200 8300
-Text Label 5800 8300 0    70   ~ 0
-MOSI
-Wire Wire Line
-	4500 5600 4500 6100
-Text Label 4500 6100 1    70   ~ 0
-MOSI
-Wire Wire Line
-	10600 7900 10200 7900
-Text Label 10300 7900 0    70   ~ 0
-MOSI
-Wire Wire Line
-	5700 8100 6200 8100
-Text Label 5800 8100 0    70   ~ 0
-SCLK
-Wire Wire Line
-	2700 5600 2700 6100
-Text Label 2700 6100 1    70   ~ 0
-SCLK
-Wire Wire Line
-	10600 8100 10200 8100
-Text Label 10300 8100 0    70   ~ 0
-SCLK
-Wire Wire Line
-	4900 7900 4400 7900
-Text Label 4400 7900 0    70   ~ 0
-MISO
-Wire Wire Line
-	2800 5600 2800 6100
-Text Label 2800 6100 1    70   ~ 0
-MISO
-Wire Wire Line
-	10600 8000 10200 8000
-Text Label 10300 8000 0    70   ~ 0
-MISO
-Wire Wire Line
-	4900 7700 4400 7700
-Text Label 4400 7700 0    70   ~ 0
-MEMCS
-Wire Wire Line
-	2300 5600 2300 6100
-Text Label 2300 6100 1    70   ~ 0
-MEMCS
-Wire Wire Line
-	10200 8200 10600 8200
-Text Label 10300 8200 0    70   ~ 0
-MEMCS
-Wire Wire Line
-	12000 6400 11500 6400
-Text Label 11600 6400 0    70   ~ 0
+	9200 4900 8700 4900
+Text Label 8800 4900 0    70   ~ 0
 /IOSELECT_33
 Wire Wire Line
-	5500 4500 6000 4500
-Text Label 5600 4500 0    70   ~ 0
-/IOSELECT_33
-Wire Wire Line
-	11500 6300 12000 6300
-Text Label 11600 6300 0    70   ~ 0
+	8700 4800 9200 4800
+Text Label 8800 4800 0    70   ~ 0
 A0_33
 Wire Wire Line
-	5500 4400 6000 4400
-Text Label 5600 4400 0    70   ~ 0
-A0_33
-Wire Wire Line
-	11500 6200 12000 6200
-Text Label 11600 6200 0    70   ~ 0
+	8700 4700 9200 4700
+Text Label 8800 4700 0    70   ~ 0
 A1_33
 Wire Wire Line
-	5500 4100 6000 4100
-Text Label 5600 4100 0    70   ~ 0
-A1_33
-Wire Wire Line
-	11500 6100 12000 6100
-Text Label 11600 6100 0    70   ~ 0
+	8700 4600 9200 4600
+Text Label 8800 4600 0    70   ~ 0
 A2_33
 Wire Wire Line
-	5500 4000 6000 4000
-Text Label 5600 4000 0    70   ~ 0
-A2_33
-Wire Wire Line
-	11500 5900 12000 5900
-Text Label 11600 5900 0    70   ~ 0
+	8700 4400 9200 4400
+Text Label 8800 4400 0    70   ~ 0
 A4_33
 Wire Wire Line
-	5500 3800 6000 3800
-Text Label 5600 3800 0    70   ~ 0
-A4_33
-Wire Wire Line
-	11500 6000 12000 6000
-Text Label 11600 6000 0    70   ~ 0
+	8700 4500 9200 4500
+Text Label 8800 4500 0    70   ~ 0
 A3_33
 Wire Wire Line
-	5500 3900 6000 3900
-Text Label 5600 3900 0    70   ~ 0
-A3_33
-Wire Wire Line
-	11500 5800 12000 5800
-Text Label 11600 5800 0    70   ~ 0
+	8700 4300 9200 4300
+Text Label 8800 4300 0    70   ~ 0
 A5_33
 Wire Wire Line
-	5500 3600 6000 3600
-Text Label 5600 3600 0    70   ~ 0
-A5_33
-Wire Wire Line
-	11500 5700 12000 5700
-Text Label 11600 5700 0    70   ~ 0
+	8700 4200 9200 4200
+Text Label 8800 4200 0    70   ~ 0
 A6_33
 Wire Wire Line
-	5500 3400 6000 3400
-Text Label 5600 3400 0    70   ~ 0
-A6_33
-Wire Wire Line
-	11500 4700 12000 4700
-Text Label 11600 4700 0    70   ~ 0
+	8700 3200 9200 3200
+Text Label 8800 3200 0    70   ~ 0
 A7_33
 Wire Wire Line
-	5500 3300 6000 3300
-Text Label 5600 3300 0    70   ~ 0
-A7_33
-Wire Wire Line
-	11500 4600 12000 4600
-Text Label 11600 4600 0    70   ~ 0
+	8700 3100 9200 3100
+Text Label 8800 3100 0    70   ~ 0
 A8_33
 Wire Wire Line
-	5500 3200 6000 3200
-Text Label 5600 3200 0    70   ~ 0
-A8_33
-Wire Wire Line
-	11500 4500 12000 4500
-Text Label 11600 4500 0    70   ~ 0
+	8700 3000 9200 3000
+Text Label 8800 3000 0    70   ~ 0
 A9_33
 Wire Wire Line
-	5500 3100 6000 3100
-Text Label 5600 3100 0    70   ~ 0
-A9_33
-Wire Wire Line
-	11500 4400 12000 4400
-Text Label 11600 4400 0    70   ~ 0
+	8700 2900 9200 2900
+Text Label 8800 2900 0    70   ~ 0
 A10_33
 Wire Wire Line
-	5500 3000 6000 3000
-Text Label 5600 3000 0    70   ~ 0
-A10_33
-Wire Wire Line
-	11500 4300 12000 4300
-Text Label 11600 4300 0    70   ~ 0
+	8700 2800 9200 2800
+Text Label 8800 2800 0    70   ~ 0
 A11_33
 Wire Wire Line
-	5500 2900 6000 2900
-Text Label 5600 2900 0    70   ~ 0
-A11_33
-Wire Wire Line
-	11500 4200 12000 4200
-Text Label 11600 4200 0    70   ~ 0
+	8700 2700 9200 2700
+Text Label 8800 2700 0    70   ~ 0
 Q3R_33
 Wire Wire Line
-	5500 2800 6000 2800
-Text Label 5600 2800 0    70   ~ 0
-Q3R_33
-Wire Wire Line
-	11500 4100 12000 4100
-Text Label 11600 4100 0    70   ~ 0
+	8700 2600 9200 2600
+Text Label 8800 2600 0    70   ~ 0
 7M_33
 Wire Wire Line
-	5500 3500 6000 3500
-Text Label 5600 3500 0    70   ~ 0
-7M_33
-Wire Wire Line
-	11500 4000 12000 4000
-Text Label 11600 4000 0    70   ~ 0
+	8700 2500 9200 2500
+Text Label 8800 2500 0    70   ~ 0
 RW_33
 Wire Wire Line
-	5500 2700 6000 2700
-Text Label 5600 2700 0    70   ~ 0
-RW_33
-Wire Wire Line
-	11500 3000 12000 3000
-Text Label 11600 3000 0    70   ~ 0
+	8700 1500 9200 1500
+Text Label 8700 1500 0    70   ~ 0
 /IOSTROBE_33
 Wire Wire Line
-	5500 2400 6000 2400
-Text Label 5600 2400 0    70   ~ 0
-/IOSTROBE_33
-Wire Wire Line
-	11500 2900 12000 2900
-Text Label 11600 2900 0    70   ~ 0
+	8700 1400 9200 1400
+Text Label 8700 1400 0    70   ~ 0
 /RESET_33
 Wire Wire Line
-	5500 2300 6000 2300
-Text Label 5600 2300 0    70   ~ 0
-/RESET_33
-Wire Wire Line
-	11500 2800 12000 2800
-Text Label 11600 2800 0    70   ~ 0
+	8700 1300 9200 1300
+Text Label 8700 1300 0    70   ~ 0
 SENSE_33
 Wire Wire Line
-	2500 1400 2500 900 
-Text Label 2500 1300 1    70   ~ 0
-SENSE_33
-Wire Wire Line
-	11500 2700 12000 2700
-Text Label 11600 2700 0    70   ~ 0
+	8700 1200 9200 1200
+Text Label 8700 1200 0    70   ~ 0
 RDDATA_33
-Wire Wire Line
-	2600 1400 2600 900 
-Text Label 2600 1300 1    70   ~ 0
-RDDATA_33
-Wire Wire Line
-	3000 5600 3000 6100
-Text Label 3000 6100 1    70   ~ 0
-/DEVSEL_33
-Wire Wire Line
-	12000 2600 11500 2600
-Text Label 11600 2600 0    70   ~ 0
-/DEVSEL_33
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 1 1 9A704297
-P 7500 4500
-F 0 "ST1" H 7675 4462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4500 50  0001 C CNN
-F 3 "" H 7500 4500 50  0001 C CNN
-	1    7500 4500
+P 5450 3000
+F 0 "ST1" H 5625 2962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 3000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 3000 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 2 1 9A70429B
-P 7500 4400
-F 0 "ST1" H 7675 4362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4400 50  0001 C CNN
-F 3 "" H 7500 4400 50  0001 C CNN
-	2    7500 4400
+P 5450 2900
+F 0 "ST1" H 5625 2862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2900 50  0001 C CNN
+F 3 "" H 5450 2900 50  0001 C CNN
+	2    5450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 3 1 9A70429F
-P 7500 4300
-F 0 "ST1" H 7675 4262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4300 50  0001 C CNN
-F 3 "" H 7500 4300 50  0001 C CNN
-	3    7500 4300
+P 5450 2800
+F 0 "ST1" H 5625 2762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	3    5450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 4 1 9A704283
-P 7500 4200
-F 0 "ST1" H 7675 4162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4200 50  0001 C CNN
-F 3 "" H 7500 4200 50  0001 C CNN
-	4    7500 4200
+P 5450 2700
+F 0 "ST1" H 5625 2662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2700 50  0001 C CNN
+F 3 "" H 5450 2700 50  0001 C CNN
+	4    5450 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 5 1 9A704287
-P 7500 4100
-F 0 "ST1" H 7675 4062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4100 50  0001 C CNN
-F 3 "" H 7500 4100 50  0001 C CNN
-	5    7500 4100
+P 5450 2600
+F 0 "ST1" H 5625 2562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2600 50  0001 C CNN
+F 3 "" H 5450 2600 50  0001 C CNN
+	5    5450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 6 1 9A70428B
-P 7500 4000
-F 0 "ST1" H 7675 3962 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 4000 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	6    7500 4000
+P 5450 2500
+F 0 "ST1" H 5625 2462 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2500 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2500 50  0001 C CNN
+F 3 "" H 5450 2500 50  0001 C CNN
+	6    5450 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 7 1 9A70428F
-P 7500 3900
-F 0 "ST1" H 7675 3862 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3900 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3900 50  0001 C CNN
-F 3 "" H 7500 3900 50  0001 C CNN
-	7    7500 3900
+P 5450 2400
+F 0 "ST1" H 5625 2362 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2400 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2400 50  0001 C CNN
+F 3 "" H 5450 2400 50  0001 C CNN
+	7    5450 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 8 1 9A7042B3
-P 7500 3800
-F 0 "ST1" H 7675 3762 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3800 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3800 50  0001 C CNN
-F 3 "" H 7500 3800 50  0001 C CNN
-	8    7500 3800
+P 5450 2300
+F 0 "ST1" H 5625 2262 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2300 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2300 50  0001 C CNN
+F 3 "" H 5450 2300 50  0001 C CNN
+	8    5450 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 9 1 9A7042B7
-P 7500 3700
-F 0 "ST1" H 7675 3662 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3700 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3700 50  0001 C CNN
-F 3 "" H 7500 3700 50  0001 C CNN
-	9    7500 3700
+P 5450 2200
+F 0 "ST1" H 5625 2162 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2200 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2200 50  0001 C CNN
+F 3 "" H 5450 2200 50  0001 C CNN
+	9    5450 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 10 1 9A7042BB
-P 7500 3600
-F 0 "ST1" H 7675 3562 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3600 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3600 50  0001 C CNN
-F 3 "" H 7500 3600 50  0001 C CNN
-	10   7500 3600
+P 5450 2100
+F 0 "ST1" H 5625 2062 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2100 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2100 50  0001 C CNN
+F 3 "" H 5450 2100 50  0001 C CNN
+	10   5450 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 11 1 9A7042BF
-P 7500 3500
-F 0 "ST1" H 7675 3462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3500 50  0001 C CNN
-F 3 "" H 7500 3500 50  0001 C CNN
-	11   7500 3500
+P 5450 2000
+F 0 "ST1" H 5625 1962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 2000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 2000 50  0001 C CNN
+F 3 "" H 5450 2000 50  0001 C CNN
+	11   5450 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 12 1 9A7042A3
-P 7500 3400
-F 0 "ST1" H 7675 3362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3400 50  0001 C CNN
-F 3 "" H 7500 3400 50  0001 C CNN
-	12   7500 3400
+P 5450 1900
+F 0 "ST1" H 5625 1862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1900 50  0001 C CNN
+F 3 "" H 5450 1900 50  0001 C CNN
+	12   5450 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 13 1 9A7042A7
-P 7500 3300
-F 0 "ST1" H 7675 3262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3300 50  0001 C CNN
-F 3 "" H 7500 3300 50  0001 C CNN
-	13   7500 3300
+P 5450 1800
+F 0 "ST1" H 5625 1762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1800 50  0001 C CNN
+F 3 "" H 5450 1800 50  0001 C CNN
+	13   5450 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 14 1 9A7042AB
-P 7500 3200
-F 0 "ST1" H 7675 3162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3200 50  0001 C CNN
-F 3 "" H 7500 3200 50  0001 C CNN
-	14   7500 3200
+P 5450 1700
+F 0 "ST1" H 5625 1662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1700 50  0001 C CNN
+F 3 "" H 5450 1700 50  0001 C CNN
+	14   5450 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 15 1 9A7042AF
-P 7500 3100
-F 0 "ST1" H 7675 3062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3100 50  0001 C CNN
-F 3 "" H 7500 3100 50  0001 C CNN
-	15   7500 3100
+P 5450 1600
+F 0 "ST1" H 5625 1562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1600 50  0001 C CNN
+F 3 "" H 5450 1600 50  0001 C CNN
+	15   5450 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 16 1 9A7042D3
-P 7500 3000
-F 0 "ST1" H 7675 2962 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 3000 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 3000 50  0001 C CNN
-F 3 "" H 7500 3000 50  0001 C CNN
-	16   7500 3000
+P 5450 1500
+F 0 "ST1" H 5625 1462 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1500 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1500 50  0001 C CNN
+F 3 "" H 5450 1500 50  0001 C CNN
+	16   5450 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 17 1 9A7042D7
-P 7500 2900
-F 0 "ST1" H 7675 2862 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2900 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2900 50  0001 C CNN
-F 3 "" H 7500 2900 50  0001 C CNN
-	17   7500 2900
+P 5450 1400
+F 0 "ST1" H 5625 1362 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1400 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1400 50  0001 C CNN
+F 3 "" H 5450 1400 50  0001 C CNN
+	17   5450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 18 1 9A7042DB
-P 7500 2800
-F 0 "ST1" H 7675 2762 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2800 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2800 50  0001 C CNN
-F 3 "" H 7500 2800 50  0001 C CNN
-	18   7500 2800
+P 5450 1300
+F 0 "ST1" H 5625 1262 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1300 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1300 50  0001 C CNN
+F 3 "" H 5450 1300 50  0001 C CNN
+	18   5450 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 19 1 9A7042DF
-P 7500 2700
-F 0 "ST1" H 7675 2662 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2700 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2700 50  0001 C CNN
-F 3 "" H 7500 2700 50  0001 C CNN
-	19   7500 2700
+P 5450 1200
+F 0 "ST1" H 5625 1162 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1200 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1200 50  0001 C CNN
+F 3 "" H 5450 1200 50  0001 C CNN
+	19   5450 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 20 1 9A7042C3
-P 7500 2600
-F 0 "ST1" H 7675 2562 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2600 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2600 50  0001 C CNN
-F 3 "" H 7500 2600 50  0001 C CNN
-	20   7500 2600
+P 5450 1100
+F 0 "ST1" H 5625 1062 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1100 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1100 50  0001 C CNN
+F 3 "" H 5450 1100 50  0001 C CNN
+	20   5450 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 21 1 9A7042C7
-P 7500 2500
-F 0 "ST1" H 7675 2462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2500 50  0001 C CNN
-F 3 "" H 7500 2500 50  0001 C CNN
-	21   7500 2500
+P 5450 1000
+F 0 "ST1" H 5625 962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 1000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 1000 50  0001 C CNN
+F 3 "" H 5450 1000 50  0001 C CNN
+	21   5450 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 22 1 9A7042CB
-P 7500 2400
-F 0 "ST1" H 7675 2362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2400 50  0001 C CNN
-F 3 "" H 7500 2400 50  0001 C CNN
-	22   7500 2400
+P 5450 900
+F 0 "ST1" H 5625 862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 900 50  0001 C CNN
+F 3 "" H 5450 900 50  0001 C CNN
+	22   5450 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 23 1 9A7042CF
-P 7600 2300
-F 0 "ST1" H 7775 2262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7600 2300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7600 2300 50  0001 C CNN
-F 3 "" H 7600 2300 50  0001 C CNN
-	23   7600 2300
+P 5550 800
+F 0 "ST1" H 5725 762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5550 800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5550 800 50  0001 C CNN
+F 3 "" H 5550 800 50  0001 C CNN
+	23   5550 800 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 24 1 9A7042F3
-P 7600 2200
-F 0 "ST1" H 7775 2162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7600 2200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7600 2200 50  0001 C CNN
-F 3 "" H 7600 2200 50  0001 C CNN
-	24   7600 2200
+P 5550 700
+F 0 "ST1" H 5725 662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5550 700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5550 700 50  0001 C CNN
+F 3 "" H 5550 700 50  0001 C CNN
+	24   5550 700 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 25 1 9A7042F7
-P 7500 2100
-F 0 "ST1" H 7675 2062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 7500 2100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 7500 2100 50  0001 C CNN
-F 3 "" H 7500 2100 50  0001 C CNN
-	25   7500 2100
+P 5450 600
+F 0 "ST1" H 5625 562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 5450 600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 5450 600 50  0001 C CNN
+F 3 "" H 5450 600 50  0001 C CNN
+	25   5450 600 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 26 1 9A7042FB
-P 9100 4500
-F 0 "ST1" H 9275 4462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4500 50  0001 C CNN
-F 3 "" H 9100 4500 50  0001 C CNN
-	26   9100 4500
+P 7050 3000
+F 0 "ST1" H 7225 2962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 3000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 3000 50  0001 C CNN
+F 3 "" H 7050 3000 50  0001 C CNN
+	26   7050 3000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 27 1 9A7042FF
-P 9100 4400
-F 0 "ST1" H 9275 4362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4400 50  0001 C CNN
-F 3 "" H 9100 4400 50  0001 C CNN
-	27   9100 4400
+P 7050 2900
+F 0 "ST1" H 7225 2862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2900 50  0001 C CNN
+F 3 "" H 7050 2900 50  0001 C CNN
+	27   7050 2900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 28 1 9A7042E3
-P 9100 4300
-F 0 "ST1" H 9275 4262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4300 50  0001 C CNN
-F 3 "" H 9100 4300 50  0001 C CNN
-	28   9100 4300
+P 7050 2800
+F 0 "ST1" H 7225 2762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2800 50  0001 C CNN
+F 3 "" H 7050 2800 50  0001 C CNN
+	28   7050 2800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 29 1 9A7042E7
-P 9100 4200
-F 0 "ST1" H 9275 4162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4200 50  0001 C CNN
-F 3 "" H 9100 4200 50  0001 C CNN
-	29   9100 4200
+P 7050 2700
+F 0 "ST1" H 7225 2662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2700 50  0001 C CNN
+F 3 "" H 7050 2700 50  0001 C CNN
+	29   7050 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 30 1 9A7042EB
-P 9100 4100
-F 0 "ST1" H 9275 4062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4100 50  0001 C CNN
-F 3 "" H 9100 4100 50  0001 C CNN
-	30   9100 4100
+P 7050 2600
+F 0 "ST1" H 7225 2562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2600 50  0001 C CNN
+F 3 "" H 7050 2600 50  0001 C CNN
+	30   7050 2600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 31 1 9A7042EF
-P 9100 4000
-F 0 "ST1" H 9275 3962 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 4000 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 4000 50  0001 C CNN
-F 3 "" H 9100 4000 50  0001 C CNN
-	31   9100 4000
+P 7050 2500
+F 0 "ST1" H 7225 2462 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2500 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2500 50  0001 C CNN
+F 3 "" H 7050 2500 50  0001 C CNN
+	31   7050 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 32 1 9A704213
-P 9100 3900
-F 0 "ST1" H 9275 3862 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3900 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3900 50  0001 C CNN
-F 3 "" H 9100 3900 50  0001 C CNN
-	32   9100 3900
+P 7050 2400
+F 0 "ST1" H 7225 2362 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2400 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2400 50  0001 C CNN
+F 3 "" H 7050 2400 50  0001 C CNN
+	32   7050 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 33 1 9A704217
-P 9100 3800
-F 0 "ST1" H 9275 3762 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3800 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3800 50  0001 C CNN
-F 3 "" H 9100 3800 50  0001 C CNN
-	33   9100 3800
+P 7050 2300
+F 0 "ST1" H 7225 2262 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2300 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2300 50  0001 C CNN
+F 3 "" H 7050 2300 50  0001 C CNN
+	33   7050 2300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 34 1 9A70421B
-P 9100 3700
-F 0 "ST1" H 9275 3662 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3700 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3700 50  0001 C CNN
-F 3 "" H 9100 3700 50  0001 C CNN
-	34   9100 3700
+P 7050 2200
+F 0 "ST1" H 7225 2162 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2200 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2200 50  0001 C CNN
+F 3 "" H 7050 2200 50  0001 C CNN
+	34   7050 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 35 1 9A70421F
-P 9100 3600
-F 0 "ST1" H 9275 3562 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3600 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3600 50  0001 C CNN
-F 3 "" H 9100 3600 50  0001 C CNN
-	35   9100 3600
+P 7050 2100
+F 0 "ST1" H 7225 2062 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2100 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2100 50  0001 C CNN
+F 3 "" H 7050 2100 50  0001 C CNN
+	35   7050 2100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 36 1 9A704203
-P 9100 3500
-F 0 "ST1" H 9275 3462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3500 50  0001 C CNN
-F 3 "" H 9100 3500 50  0001 C CNN
-	36   9100 3500
+P 7050 2000
+F 0 "ST1" H 7225 1962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 2000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 2000 50  0001 C CNN
+F 3 "" H 7050 2000 50  0001 C CNN
+	36   7050 2000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 37 1 9A704207
-P 9100 3400
-F 0 "ST1" H 9275 3362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3400 50  0001 C CNN
-F 3 "" H 9100 3400 50  0001 C CNN
-	37   9100 3400
+P 7050 1900
+F 0 "ST1" H 7225 1862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1900 50  0001 C CNN
+F 3 "" H 7050 1900 50  0001 C CNN
+	37   7050 1900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 38 1 9A70420B
-P 9100 3300
-F 0 "ST1" H 9275 3262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3300 50  0001 C CNN
-F 3 "" H 9100 3300 50  0001 C CNN
-	38   9100 3300
+P 7050 1800
+F 0 "ST1" H 7225 1762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1800 50  0001 C CNN
+F 3 "" H 7050 1800 50  0001 C CNN
+	38   7050 1800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 39 1 9A70420F
-P 9100 3200
-F 0 "ST1" H 9275 3162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3200 50  0001 C CNN
-F 3 "" H 9100 3200 50  0001 C CNN
-	39   9100 3200
+P 7050 1700
+F 0 "ST1" H 7225 1662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1700 50  0001 C CNN
+F 3 "" H 7050 1700 50  0001 C CNN
+	39   7050 1700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 40 1 9A704233
-P 9100 3100
-F 0 "ST1" H 9275 3062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3100 50  0001 C CNN
-F 3 "" H 9100 3100 50  0001 C CNN
-	40   9100 3100
+P 7050 1600
+F 0 "ST1" H 7225 1562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1600 50  0001 C CNN
+F 3 "" H 7050 1600 50  0001 C CNN
+	40   7050 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 41 1 9A704237
-P 9100 3000
-F 0 "ST1" H 9275 2962 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 3000 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 3000 50  0001 C CNN
-F 3 "" H 9100 3000 50  0001 C CNN
-	41   9100 3000
+P 7050 1500
+F 0 "ST1" H 7225 1462 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1500 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1500 50  0001 C CNN
+F 3 "" H 7050 1500 50  0001 C CNN
+	41   7050 1500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 42 1 9A70423B
-P 9100 2900
-F 0 "ST1" H 9275 2862 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2900 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2900 50  0001 C CNN
-F 3 "" H 9100 2900 50  0001 C CNN
-	42   9100 2900
+P 7050 1400
+F 0 "ST1" H 7225 1362 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1400 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1400 50  0001 C CNN
+F 3 "" H 7050 1400 50  0001 C CNN
+	42   7050 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 43 1 9A70423F
-P 9100 2800
-F 0 "ST1" H 9275 2762 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2800 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2800 50  0001 C CNN
-F 3 "" H 9100 2800 50  0001 C CNN
-	43   9100 2800
+P 7050 1300
+F 0 "ST1" H 7225 1262 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1300 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1300 50  0001 C CNN
+F 3 "" H 7050 1300 50  0001 C CNN
+	43   7050 1300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 44 1 9A704223
-P 9100 2700
-F 0 "ST1" H 9275 2662 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2700 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2700 50  0001 C CNN
-F 3 "" H 9100 2700 50  0001 C CNN
-	44   9100 2700
+P 7050 1200
+F 0 "ST1" H 7225 1162 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1200 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1200 50  0001 C CNN
+F 3 "" H 7050 1200 50  0001 C CNN
+	44   7050 1200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 45 1 9A704227
-P 9100 2600
-F 0 "ST1" H 9275 2562 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2600 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2600 50  0001 C CNN
-F 3 "" H 9100 2600 50  0001 C CNN
-	45   9100 2600
+P 7050 1100
+F 0 "ST1" H 7225 1062 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1100 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1100 50  0001 C CNN
+F 3 "" H 7050 1100 50  0001 C CNN
+	45   7050 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 46 1 9A70422B
-P 9100 2500
-F 0 "ST1" H 9275 2462 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2500 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2500 50  0001 C CNN
-F 3 "" H 9100 2500 50  0001 C CNN
-	46   9100 2500
+P 7050 1000
+F 0 "ST1" H 7225 962 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 1000 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 1000 50  0001 C CNN
+F 3 "" H 7050 1000 50  0001 C CNN
+	46   7050 1000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 47 1 9A70422F
-P 9100 2400
-F 0 "ST1" H 9275 2362 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2400 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2400 50  0001 C CNN
-F 3 "" H 9100 2400 50  0001 C CNN
-	47   9100 2400
+P 7050 900
+F 0 "ST1" H 7225 862 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 900 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 900 50  0001 C CNN
+F 3 "" H 7050 900 50  0001 C CNN
+	47   7050 900 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 48 1 9A704253
-P 9000 2300
-F 0 "ST1" H 9175 2262 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9000 2300 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9000 2300 50  0001 C CNN
-F 3 "" H 9000 2300 50  0001 C CNN
-	48   9000 2300
+P 6950 800
+F 0 "ST1" H 7125 762 59  0000 L BNN
+F 1 "A2-50PINMINI" H 6950 800 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 6950 800 50  0001 C CNN
+F 3 "" H 6950 800 50  0001 C CNN
+	48   6950 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 49 1 9A704257
-P 9000 2200
-F 0 "ST1" H 9175 2162 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9000 2200 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9000 2200 50  0001 C CNN
-F 3 "" H 9000 2200 50  0001 C CNN
-	49   9000 2200
+P 6950 700
+F 0 "ST1" H 7125 662 59  0000 L BNN
+F 1 "A2-50PINMINI" H 6950 700 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 6950 700 50  0001 C CNN
+F 3 "" H 6950 700 50  0001 C CNN
+	49   6950 700 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
 U 50 1 9A70425B
-P 9100 2100
-F 0 "ST1" H 9275 2062 59  0000 L BNN
-F 1 "A2-50PINMINI" H 9100 2100 50  0001 C CNN
-F 2 "bmowdisk:A2-50PIN-MINI" H 9100 2100 50  0001 C CNN
-F 3 "" H 9100 2100 50  0001 C CNN
-	50   9100 2100
+P 7050 600
+F 0 "ST1" H 7225 562 59  0000 L BNN
+F 1 "A2-50PINMINI" H 7050 600 50  0001 C CNN
+F 2 "bmowdisk:A2-50PIN-MINI" H 7050 600 50  0001 C CNN
+F 3 "" H 7050 600 50  0001 C CNN
+	50   7050 600 
 	-1   0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C19
-U 1 1 AD5546C4
-P 7500 6900
-F 0 "C19" H 7560 7015 59  0000 L BNN
-F 1 "10uF" H 7560 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 7500 6900 50  0001 C CNN
-F 3 "" H 7500 6900 50  0001 C CNN
-	1    7500 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND08
-U 1 1 DF24F9E8
-P 8400 7400
-F 0 "#GND08" H 8400 7400 50  0001 C CNN
-F 1 "GND" H 8300 7300 59  0000 L BNN
-F 2 "" H 8400 7400 50  0001 C CNN
-F 3 "" H 8400 7400 50  0001 C CNN
-	1    8400 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:MIC5219XX U3
-U 1 1 9A04CEE8
-P 8300 6800
-F 0 "U3" H 8000 7150 59  0000 L BNN
-F 1 "MIC5219XX" H 8700 6500 59  0000 L BNN
-F 2 "bmowdisk:SOT23-5" H 8300 6800 50  0001 C CNN
-F 3 "" H 8300 6800 50  0001 C CNN
-	1    8300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:LEDCHIP-LED0805 D1
-U 1 1 8D141E84
-P 9200 9200
-F 0 "D1" V 9340 9020 59  0000 L BNN
-F 1 "LEDCHIP-LED0805" V 9425 9020 59  0000 L BNN
-F 2 "bmowdisk:CHIP-LED0805" H 9200 9200 50  0001 C CNN
-F 3 "" H 9200 9200 50  0001 C CNN
-	1    9200 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:RESISTOR0805-RES R1
-U 1 1 BCEE6C03
-P 9200 8800
-F 0 "R1" H 9050 8859 59  0000 L BNN
-F 1 "390R" H 9050 8670 59  0000 L BNN
-F 2 "bmowdisk:0805" H 9200 8800 50  0001 C CNN
-F 3 "" H 9200 8800 50  0001 C CNN
-	1    9200 8800
-	0    1    1    0   
-$EndComp
-$Comp
-L bmowdisk-eagle-import:MA06-1NORMAL J1
-U 1 1 2CE6A523
-P 7200 8000
-F 0 "J1" H 7150 8330 59  0000 L BNN
-F 1 "MA06-1NORMAL" H 7150 7500 59  0000 L BNN
-F 2 "bmowdisk:MA06-1" H 7200 8000 50  0001 C CNN
-F 3 "" H 7200 8000 50  0001 C CNN
-	1    7200 8000
-	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:74X245 U4
 U 1 1 7C57E89D
-P 12500 8000
-F 0 "U4" H 12200 8725 59  0000 L BNN
-F 1 "74X245" H 12200 7300 59  0000 L BNN
-F 2 "bmowdisk:SSOP20" H 12500 8000 50  0001 C CNN
-F 3 "" H 12500 8000 50  0001 C CNN
-	1    12500 8000
+P 9700 6500
+F 0 "U4" H 9400 7225 59  0000 L BNN
+F 1 "74X245" H 9400 5800 59  0000 L BNN
+F 2 "bmowdisk:SSOP20" H 9700 6500 50  0001 C CNN
+F 3 "" H 9700 6500 50  0001 C CNN
+	1    9700 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND04
 U 1 1 D896219B
-P 13200 8800
-F 0 "#GND04" H 13200 8800 50  0001 C CNN
-F 1 "GND" H 13100 8700 59  0000 L BNN
-F 2 "" H 13200 8800 50  0001 C CNN
-F 3 "" H 13200 8800 50  0001 C CNN
-	1    13200 8800
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+05
-U 1 1 33ACA7EC
-P 13900 8200
-F 0 "#P+05" H 13900 8200 50  0001 C CNN
-F 1 "VCC" V 13800 8100 59  0000 L BNN
-F 2 "" H 13900 8200 50  0001 C CNN
-F 3 "" H 13900 8200 50  0001 C CNN
-	1    13900 8200
+P 10400 7300
+F 0 "#GND04" H 10400 7300 50  0001 C CNN
+F 1 "GND" H 10300 7200 59  0000 L BNN
+F 2 "" H 10400 7300 50  0001 C CNN
+F 3 "" H 10400 7300 50  0001 C CNN
+	1    10400 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R2
 U 1 1 84E85E96
-P 6900 3200
-F 0 "R2" H 6750 3259 59  0000 L BNN
-F 1 "390R" H 6750 3070 59  0000 L BNN
-F 2 "bmowdisk:0805" H 6900 3200 50  0001 C CNN
-F 3 "" H 6900 3200 50  0001 C CNN
-	1    6900 3200
+P 4850 1700
+F 0 "R2" H 4700 1759 59  0000 L BNN
+F 1 "390R" H 4700 1570 59  0000 L BNN
+F 2 "bmowdisk:0805" H 4850 1700 50  0001 C CNN
+F 3 "" H 4850 1700 50  0001 C CNN
+	1    4850 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:74X245 U7
 U 1 1 63AD74B9
-P 12500 2900
-F 0 "U7" H 12200 3625 59  0000 L BNN
-F 1 "74X245" H 12200 2200 59  0000 L BNN
-F 2 "bmowdisk:SSOP20" H 12500 2900 50  0001 C CNN
-F 3 "" H 12500 2900 50  0001 C CNN
-	1    12500 2900
+P 9700 1400
+F 0 "U7" H 9400 2125 59  0000 L BNN
+F 1 "74X245" H 9400 700 59  0000 L BNN
+F 2 "bmowdisk:SSOP20" H 9700 1400 50  0001 C CNN
+F 3 "" H 9700 1400 50  0001 C CNN
+	1    9700 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:74X245 U5
 U 1 1 FECC9F54
-P 12500 6300
-F 0 "U5" H 12200 7025 59  0000 L BNN
-F 1 "74X245" H 12200 5600 59  0000 L BNN
-F 2 "bmowdisk:SSOP20" H 12500 6300 50  0001 C CNN
-F 3 "" H 12500 6300 50  0001 C CNN
-	1    12500 6300
+P 9700 4800
+F 0 "U5" H 9400 5525 59  0000 L BNN
+F 1 "74X245" H 9400 4100 59  0000 L BNN
+F 2 "bmowdisk:SSOP20" H 9700 4800 50  0001 C CNN
+F 3 "" H 9700 4800 50  0001 C CNN
+	1    9700 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:74X245 U6
 U 1 1 E64FE535
-P 12500 4600
-F 0 "U6" H 12200 5325 59  0000 L BNN
-F 1 "74X245" H 12200 3900 59  0000 L BNN
-F 2 "bmowdisk:SSOP20" H 12500 4600 50  0001 C CNN
-F 3 "" H 12500 4600 50  0001 C CNN
-	1    12500 4600
+P 9700 3100
+F 0 "U6" H 9400 3825 59  0000 L BNN
+F 1 "74X245" H 9400 2400 59  0000 L BNN
+F 2 "bmowdisk:SSOP20" H 9700 3100 50  0001 C CNN
+F 3 "" H 9700 3100 50  0001 C CNN
+	1    9700 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND01
 U 1 1 DB8695AC
-P 13200 3700
-F 0 "#GND01" H 13200 3700 50  0001 C CNN
-F 1 "GND" H 13100 3600 59  0000 L BNN
-F 2 "" H 13200 3700 50  0001 C CNN
-F 3 "" H 13200 3700 50  0001 C CNN
-	1    13200 3700
+P 10400 2200
+F 0 "#GND01" H 10400 2200 50  0001 C CNN
+F 1 "GND" H 10300 2100 59  0000 L BNN
+F 2 "" H 10400 2200 50  0001 C CNN
+F 3 "" H 10400 2200 50  0001 C CNN
+	1    10400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND02
 U 1 1 13A376EC
-P 13200 7100
-F 0 "#GND02" H 13200 7100 50  0001 C CNN
-F 1 "GND" H 13100 7000 59  0000 L BNN
-F 2 "" H 13200 7100 50  0001 C CNN
-F 3 "" H 13200 7100 50  0001 C CNN
-	1    13200 7100
+P 10400 5600
+F 0 "#GND02" H 10400 5600 50  0001 C CNN
+F 1 "GND" H 10300 5500 59  0000 L BNN
+F 2 "" H 10400 5600 50  0001 C CNN
+F 3 "" H 10400 5600 50  0001 C CNN
+	1    10400 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND03
 U 1 1 7679BDCC
-P 13200 5400
-F 0 "#GND03" H 13200 5400 50  0001 C CNN
-F 1 "GND" H 13100 5300 59  0000 L BNN
-F 2 "" H 13200 5400 50  0001 C CNN
-F 3 "" H 13200 5400 50  0001 C CNN
-	1    13200 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+01
-U 1 1 BCDF72C5
-P 13900 6500
-F 0 "#P+01" H 13900 6500 50  0001 C CNN
-F 1 "VCC" V 13800 6400 59  0000 L BNN
-F 2 "" H 13900 6500 50  0001 C CNN
-F 3 "" H 13900 6500 50  0001 C CNN
-	1    13900 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+02
-U 1 1 339DE9D3
-P 13900 3100
-F 0 "#P+02" H 13900 3100 50  0001 C CNN
-F 1 "VCC" V 13800 3000 59  0000 L BNN
-F 2 "" H 13900 3100 50  0001 C CNN
-F 3 "" H 13900 3100 50  0001 C CNN
-	1    13900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+03
-U 1 1 00F05DF6
-P 13900 4800
-F 0 "#P+03" H 13900 4800 50  0001 C CNN
-F 1 "VCC" V 13800 4700 59  0000 L BNN
-F 2 "" H 13900 4800 50  0001 C CNN
-F 3 "" H 13900 4800 50  0001 C CNN
-	1    13900 4800
+P 10400 3900
+F 0 "#GND03" H 10400 3900 50  0001 C CNN
+F 1 "GND" H 10300 3800 59  0000 L BNN
+F 2 "" H 10400 3900 50  0001 C CNN
+F 3 "" H 10400 3900 50  0001 C CNN
+	1    10400 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND05
 U 1 1 EF27308A
-P 6500 2300
-F 0 "#GND05" H 6500 2300 50  0001 C CNN
-F 1 "GND" H 6400 2200 59  0000 L BNN
-F 2 "" H 6500 2300 50  0001 C CNN
-F 3 "" H 6500 2300 50  0001 C CNN
-	1    6500 2300
+P 4450 800
+F 0 "#GND05" H 4450 800 50  0001 C CNN
+F 1 "GND" H 4350 700 59  0000 L BNN
+F 2 "" H 4450 800 50  0001 C CNN
+F 3 "" H 4450 800 50  0001 C CNN
+	1    4450 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:IDC20 CON1
 U 1 1 98085B15
-P 8300 5400
-F 0 "CON1" H 8200 5950 59  0000 L BNN
-F 1 "IDC20" H 8200 4700 59  0000 L BNN
-F 2 "bmowdisk:IDC20" H 8300 5400 50  0001 C CNN
-F 3 "" H 8300 5400 50  0001 C CNN
-	1    8300 5400
+P 5500 4550
+F 0 "CON1" H 5400 5100 59  0000 L BNN
+F 1 "IDC20" H 5400 3850 59  0000 L BNN
+F 2 "bmowdisk:IDC20" H 5500 4550 50  0001 C CNN
+F 3 "" H 5500 4550 50  0001 C CNN
+	1    5500 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND010
 U 1 1 845C69E3
-P 7700 4900
-F 0 "#GND010" H 7700 4900 50  0001 C CNN
-F 1 "GND" H 7600 4800 59  0000 L BNN
-F 2 "" H 7700 4900 50  0001 C CNN
-F 3 "" H 7700 4900 50  0001 C CNN
-	1    7700 4900
+P 4900 4050
+F 0 "#GND010" H 4900 4050 50  0001 C CNN
+F 1 "GND" H 4800 3950 59  0000 L BNN
+F 2 "" H 4900 4050 50  0001 C CNN
+F 3 "" H 4900 4050 50  0001 C CNN
+	1    4900 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:GND #GND06
 U 1 1 A07C0193
-P 13400 2400
-F 0 "#GND06" H 13400 2400 50  0001 C CNN
-F 1 "GND" H 13300 2300 59  0000 L BNN
-F 2 "" H 13400 2400 50  0001 C CNN
-F 3 "" H 13400 2400 50  0001 C CNN
-	1    13400 2400
+P 10600 900
+F 0 "#GND06" H 10600 900 50  0001 C CNN
+F 1 "GND" H 10500 800 59  0000 L BNN
+F 2 "" H 10600 900 50  0001 C CNN
+F 3 "" H 10600 900 50  0001 C CNN
+	1    10600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R5
 U 1 1 601230F6
-P 13800 2400
-F 0 "R5" H 13650 2459 59  0000 L BNN
-F 1 "22K" H 13650 2270 59  0000 L BNN
-F 2 "bmowdisk:0805" H 13800 2400 50  0001 C CNN
-F 3 "" H 13800 2400 50  0001 C CNN
-	1    13800 2400
+P 11000 900
+F 0 "R5" H 10850 959 59  0000 L BNN
+F 1 "22K" H 10850 770 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11000 900 50  0001 C CNN
+F 3 "" H 11000 900 50  0001 C CNN
+	1    11000 900 
 	0    1    1    0   
 $EndComp
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R4
 U 1 1 FFAAD96E
-P 14200 2400
-F 0 "R4" H 14050 2459 59  0000 L BNN
-F 1 "22K" H 14050 2270 59  0000 L BNN
-F 2 "bmowdisk:0805" H 14200 2400 50  0001 C CNN
-F 3 "" H 14200 2400 50  0001 C CNN
-	1    14200 2400
+P 11400 900
+F 0 "R4" H 11250 959 59  0000 L BNN
+F 1 "22K" H 11250 770 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11400 900 50  0001 C CNN
+F 3 "" H 11400 900 50  0001 C CNN
+	1    11400 900 
 	0    1    1    0   
 $EndComp
 $Comp
 L bmowdisk-eagle-import:CAP0805 C1
 U 1 1 F1C90C04
-P 13900 8600
-F 0 "C1" H 13960 8715 59  0000 L BNN
-F 1 "0.1uF" H 13960 8515 59  0000 L BNN
-F 2 "bmowdisk:0805" H 13900 8600 50  0001 C CNN
-F 3 "" H 13900 8600 50  0001 C CNN
-	1    13900 8600
+P 11100 7100
+F 0 "C1" H 11160 7215 59  0000 L BNN
+F 1 "0.1uF" H 11160 7015 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11100 7100 50  0001 C CNN
+F 3 "" H 11100 7100 50  0001 C CNN
+	1    11100 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:CAP0805 C2
 U 1 1 B94C3227
-P 13900 6900
-F 0 "C2" H 13960 7015 59  0000 L BNN
-F 1 "0.1uF" H 13960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 13900 6900 50  0001 C CNN
-F 3 "" H 13900 6900 50  0001 C CNN
-	1    13900 6900
+P 11100 5400
+F 0 "C2" H 11160 5515 59  0000 L BNN
+F 1 "0.1uF" H 11160 5315 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11100 5400 50  0001 C CNN
+F 3 "" H 11100 5400 50  0001 C CNN
+	1    11100 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:CAP0805 C3
 U 1 1 DAA3AADF
-P 13900 5200
-F 0 "C3" H 13960 5315 59  0000 L BNN
-F 1 "0.1uF" H 13960 5115 59  0000 L BNN
-F 2 "bmowdisk:0805" H 13900 5200 50  0001 C CNN
-F 3 "" H 13900 5200 50  0001 C CNN
-	1    13900 5200
+P 11100 3700
+F 0 "C3" H 11160 3815 59  0000 L BNN
+F 1 "0.1uF" H 11160 3615 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11100 3700 50  0001 C CNN
+F 3 "" H 11100 3700 50  0001 C CNN
+	1    11100 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:CAP0805 C4
 U 1 1 F80B1965
-P 13900 3500
-F 0 "C4" H 13960 3615 59  0000 L BNN
-F 1 "0.1uF" H 13960 3415 59  0000 L BNN
-F 2 "bmowdisk:0805" H 13900 3500 50  0001 C CNN
-F 3 "" H 13900 3500 50  0001 C CNN
-	1    13900 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:M02PTH J4
-U 1 1 2A89DB3B
-P 6900 6900
-F 0 "J4" H 6800 7130 59  0000 L BNN
-F 1 "M02PTH" H 6800 6700 59  0000 L BNN
-F 2 "bmowdisk:1X02" H 6900 6900 50  0001 C CNN
-F 3 "" H 6900 6900 50  0001 C CNN
-	1    6900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:RESISTOR0805-RES R3
-U 1 1 3FB9ABD5
-P 7900 8600
-F 0 "R3" H 7750 8659 59  0000 L BNN
-F 1 "4.7K" H 7750 8470 59  0000 L BNN
-F 2 "bmowdisk:0805" H 7900 8600 50  0001 C CNN
-F 3 "" H 7900 8600 50  0001 C CNN
-	1    7900 8600
-	0    1    1    0   
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND09
-U 1 1 928DF91D
-P 7900 9000
-F 0 "#GND09" H 7900 9000 50  0001 C CNN
-F 1 "GND" H 7800 8900 59  0000 L BNN
-F 2 "" H 7900 9000 50  0001 C CNN
-F 3 "" H 7900 9000 50  0001 C CNN
-	1    7900 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C20
-U 1 1 EDA6B4AC
-P 9000 6900
-F 0 "C20" H 9060 7015 59  0000 L BNN
-F 1 "10uF" H 9060 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 9000 6900 50  0001 C CNN
-F 3 "" H 9000 6900 50  0001 C CNN
-	1    9000 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C5
-U 1 1 295533C0
-P 9400 6900
-F 0 "C5" H 9460 7015 59  0000 L BNN
-F 1 "0.1uF" H 9460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 9400 6900 50  0001 C CNN
-F 3 "" H 9400 6900 50  0001 C CNN
-	1    9400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C6
-U 1 1 2E21776E
-P 10200 6900
-F 0 "C6" H 10260 7015 59  0000 L BNN
-F 1 "0.1uF" H 10260 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 10200 6900 50  0001 C CNN
-F 3 "" H 10200 6900 50  0001 C CNN
-	1    10200 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C14
-U 1 1 0D17FF08
-P 3900 6900
-F 0 "C14" H 3960 7015 59  0000 L BNN
-F 1 "0.01uF" H 3960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 3900 6900 50  0001 C CNN
-F 3 "" H 3900 6900 50  0001 C CNN
-	1    3900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C9
-U 1 1 F7AEDC46
-P 3400 6900
-F 0 "C9" H 3460 7015 59  0000 L BNN
-F 1 "0.1uF" H 3460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 3400 6900 50  0001 C CNN
-F 3 "" H 3400 6900 50  0001 C CNN
-	1    3400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:INDUCTOR0805 L1
-U 1 1 4CAB314C
-P 9700 6600
-F 0 "L1" V 9600 6700 59  0000 L BNN
-F 1 "INDUCTOR0805" V 9600 6400 59  0000 L BNN
-F 2 "bmowdisk:0805" H 9700 6600 50  0001 C CNN
-F 3 "" H 9700 6600 50  0001 C CNN
-	1    9700 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+04
-U 1 1 A7FDB2D8
-P 9000 6400
-F 0 "#P+04" H 9000 6400 50  0001 C CNN
-F 1 "VCC" V 8900 6300 59  0000 L BNN
-F 2 "" H 9000 6400 50  0001 C CNN
-F 3 "" H 9000 6400 50  0001 C CNN
-	1    9000 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND07
-U 1 1 9CDE76EF
-P 8100 8100
-F 0 "#GND07" H 8100 8100 50  0001 C CNN
-F 1 "GND" H 8000 8000 59  0000 L BNN
-F 2 "" H 8100 8100 50  0001 C CNN
-F 3 "" H 8100 8100 50  0001 C CNN
-	1    8100 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:LCMXO2-1200HC-TQFP100 U1
-U 1 1 F9562130
-P 3500 3500
-F 0 "U1" H 3300 3550 59  0000 L BNN
-F 1 "LCMXO2-1200HC-TQFP100" H 3300 3400 59  0000 L BNN
-F 2 "bmowdisk:TQFP100" H 3500 3500 50  0001 C CNN
-F 3 "" H 3500 3500 50  0001 C CNN
-	1    3500 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND011
-U 1 1 19DA8D48
-P 9200 9600
-F 0 "#GND011" H 9200 9600 50  0001 C CNN
-F 1 "GND" H 9100 9500 59  0000 L BNN
-F 2 "" H 9200 9600 50  0001 C CNN
-F 3 "" H 9200 9600 50  0001 C CNN
-	1    9200 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:M081X08 J3
-U 1 1 CD200F35
-P 8800 8200
-F 0 "J3" H 8600 8730 59  0000 L BNN
-F 1 "LCD1" H 8600 7700 59  0000 L BNN
-F 2 "bmowdisk:1X08" H 8800 8200 50  0001 C CNN
-F 3 "" H 8800 8200 50  0001 C CNN
-	1    8800 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:SPI-FLASH U2
-U 1 1 C2DEB937
-P 5300 7900
-F 0 "U2" H 5000 8250 59  0000 L BNN
-F 1 "SPI-FLASH" H 5200 7300 59  0000 L BNN
-F 2 "bmowdisk:SOIC08" H 5300 7900 50  0001 C CNN
-F 3 "" H 5300 7900 50  0001 C CNN
-	1    5300 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+07
-U 1 1 BC2DCEA9
-P 5900 7500
-F 0 "#P+07" H 5900 7500 50  0001 C CNN
-F 1 "VCC" V 5800 7400 59  0000 L BNN
-F 2 "" H 5900 7500 50  0001 C CNN
-F 3 "" H 5900 7500 50  0001 C CNN
-	1    5900 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND012
-U 1 1 A5F18D96
-P 4700 8500
-F 0 "#GND012" H 4700 8500 50  0001 C CNN
-F 1 "GND" H 4600 8400 59  0000 L BNN
-F 2 "" H 4700 8500 50  0001 C CNN
-F 3 "" H 4700 8500 50  0001 C CNN
-	1    4700 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:MA04-1S J2
-U 1 1 F2D55355
-P 10100 8000
-F 0 "J2" H 9850 8230 59  0000 L BNN
-F 1 "MA04-1S" H 9850 7600 59  0000 L BNN
-F 2 "bmowdisk:MA04-1" H 10100 8000 50  0001 C CNN
-F 3 "" H 10100 8000 50  0001 C CNN
-	1    10100 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:VCC #P+08
-U 1 1 B54CCCBB
-P 4400 8000
-F 0 "#P+08" H 4400 8000 50  0001 C CNN
-F 1 "VCC" V 4300 7900 59  0000 L BNN
-F 2 "" H 4400 8000 50  0001 C CNN
-F 3 "" H 4400 8000 50  0001 C CNN
-	1    4400 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C12
-U 1 1 82602F87
-P 4400 6900
-F 0 "C12" H 4460 7015 59  0000 L BNN
-F 1 "0.1uF" H 4460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 4400 6900 50  0001 C CNN
-F 3 "" H 4400 6900 50  0001 C CNN
-	1    4400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C13
-U 1 1 E9C23DE4
-P 2900 6900
-F 0 "C13" H 2960 7015 59  0000 L BNN
-F 1 "0.01uF" H 2960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 2900 6900 50  0001 C CNN
-F 3 "" H 2900 6900 50  0001 C CNN
-	1    2900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C18
-U 1 1 218FE546
-P 2400 6900
-F 0 "C18" H 2460 7015 59  0000 L BNN
-F 1 "0.01uF" H 2460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 2400 6900 50  0001 C CNN
-F 3 "" H 2400 6900 50  0001 C CNN
-	1    2400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C11
-U 1 1 892386DA
-P 1900 6900
-F 0 "C11" H 1960 7015 59  0000 L BNN
-F 1 "0.1uF" H 1960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 1900 6900 50  0001 C CNN
-F 3 "" H 1900 6900 50  0001 C CNN
-	1    1900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C8
-U 1 1 B2598F92
-P 1400 6900
-F 0 "C8" H 1460 7015 59  0000 L BNN
-F 1 "0.1uF" H 1460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 1400 6900 50  0001 C CNN
-F 3 "" H 1400 6900 50  0001 C CNN
-	1    1400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C15
-U 1 1 EED69F4E
-P 4900 6900
-F 0 "C15" H 4960 7015 59  0000 L BNN
-F 1 "0.01uF" H 4960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 4900 6900 50  0001 C CNN
-F 3 "" H 4900 6900 50  0001 C CNN
-	1    4900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C10
-U 1 1 6FDD5949
-P 5400 6900
-F 0 "C10" H 5460 7015 59  0000 L BNN
-F 1 "0.1uF" H 5460 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 5400 6900 50  0001 C CNN
-F 3 "" H 5400 6900 50  0001 C CNN
-	1    5400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C16
-U 1 1 913E70C5
-P 5900 6900
-F 0 "C16" H 5960 7015 59  0000 L BNN
-F 1 "0.01uF" H 5960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 5900 6900 50  0001 C CNN
-F 3 "" H 5900 6900 50  0001 C CNN
-	1    5900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C17
-U 1 1 4B0B961B
-P 900 6900
-F 0 "C17" H 960 7015 59  0000 L BNN
-F 1 "0.01uF" H 960 6815 59  0000 L BNN
-F 2 "bmowdisk:0805" H 900 6900 50  0001 C CNN
-F 3 "" H 900 6900 50  0001 C CNN
-	1    900  6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:GND #GND013
-U 1 1 9E3D6951
-P 3400 7200
-F 0 "#GND013" H 3400 7200 50  0001 C CNN
-F 1 "GND" H 3300 7100 59  0000 L BNN
-F 2 "" H 3400 7200 50  0001 C CNN
-F 3 "" H 3400 7200 50  0001 C CNN
-	1    3400 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:CAP0805 C7
-U 1 1 69A561B9
-P 4400 8300
-F 0 "C7" H 4460 8415 59  0000 L BNN
-F 1 "0.1uF" H 4460 8215 59  0000 L BNN
-F 2 "bmowdisk:0805" H 4400 8300 50  0001 C CNN
-F 3 "" H 4400 8300 50  0001 C CNN
-	1    4400 8300
+P 11100 2000
+F 0 "C4" H 11160 2115 59  0000 L BNN
+F 1 "0.1uF" H 11160 1915 59  0000 L BNN
+F 2 "bmowdisk:0805" H 11100 2000 50  0001 C CNN
+F 3 "" H 11100 2000 50  0001 C CNN
+	1    11100 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R6
 U 1 1 F19132AB
-P 11300 8200
-F 0 "R6" H 11150 8259 59  0000 L BNN
-F 1 "22K" H 11150 8070 59  0000 L BNN
-F 2 "bmowdisk:0805" H 11300 8200 50  0001 C CNN
-F 3 "" H 11300 8200 50  0001 C CNN
-	1    11300 8200
+P 8500 6700
+F 0 "R6" H 8350 6759 59  0000 L BNN
+F 1 "22K" H 8350 6570 59  0000 L BNN
+F 2 "bmowdisk:0805" H 8500 6700 50  0001 C CNN
+F 3 "" H 8500 6700 50  0001 C CNN
+	1    8500 6700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9200 1100 8700 1100
+Text Label 8700 1100 0    70   ~ 0
+/DEVSEL_33
 $Comp
-L bmowdisk-eagle-import:VCC #P+06
-U 1 1 B0F39303
-P 11300 7800
-F 0 "#P+06" H 11300 7800 50  0001 C CNN
-F 1 "VCC" V 11200 7700 59  0000 L BNN
-F 2 "" H 11300 7800 50  0001 C CNN
-F 3 "" H 11300 7800 50  0001 C CNN
-	1    11300 7800
+L ice40-shield-lib:FL40YA-V36P-2X20-LF CON2
+U 1 1 602FCDEE
+P 2450 1850
+F 0 "CON2" H 2450 585 50  0000 C CNN
+F 1 "FL40YA-V36P-2X20-LF" H 2450 676 50  0000 C CNN
+F 2 "lime2-ice40-shield:YA-V36P-2X20-LF" H 2500 600 50  0000 C CNN
+F 3 "" H 2450 1850 60  0000 C CNN
+	1    2450 1850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2100 850  1700 850 
+Wire Wire Line
+	1700 850  1700 700 
+Text Label 1700 700  2    70   ~ 0
+5V
+$Comp
+L bmowdisk-eagle-import:GND #GND0101
+U 1 1 607EEC03
+P 3550 850
+F 0 "#GND0101" H 3550 850 50  0001 C CNN
+F 1 "GND" H 3450 750 59  0000 L BNN
+F 2 "" H 3550 850 50  0001 C CNN
+F 3 "" H 3550 850 50  0001 C CNN
+	1    3550 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 850  3400 850 
+Wire Wire Line
+	3400 950  3400 850 
+Wire Wire Line
+	2800 950  3400 950 
+Wire Wire Line
+	3400 850  3450 850 
+NoConn ~ 2800 1050
+Wire Wire Line
+	2100 950  1400 950 
+Wire Wire Line
+	2100 1050 1400 1050
+Text Label 1400 700  2    70   ~ 0
+3.3V
+Text Label 1400 1150 0    70   ~ 0
+A0_33
+Wire Wire Line
+	2100 1150 1400 1150
+Wire Wire Line
+	2100 1250 1400 1250
+Wire Wire Line
+	2100 1350 1400 1350
+Wire Wire Line
+	2100 1450 1400 1450
+Wire Wire Line
+	2100 1550 1400 1550
+Text Label 1400 1250 0    70   ~ 0
+A1_33
+Text Label 1400 1350 0    70   ~ 0
+A2_33
+Text Label 1400 1450 0    70   ~ 0
+A3_33
+Text Label 1400 1550 0    70   ~ 0
+A4_33
+Wire Wire Line
+	2100 1650 1400 1650
+Wire Wire Line
+	2100 1750 1400 1750
+Text Label 1400 1650 0    70   ~ 0
+A5_33
+Text Label 1400 1750 0    70   ~ 0
+A6_33
+Text Label 1400 1850 0    70   ~ 0
+A7_33
+Wire Wire Line
+	2100 1850 1400 1850
+Wire Wire Line
+	2100 1950 1400 1950
+Wire Wire Line
+	2100 2050 1400 2050
+Wire Wire Line
+	2100 2150 1400 2150
+Wire Wire Line
+	2100 2250 1400 2250
+Wire Wire Line
+	2100 2350 1400 2350
+Wire Wire Line
+	1400 2450 2100 2450
+Text Label 1400 1950 0    70   ~ 0
+A8_33
+Text Label 1400 2050 0    70   ~ 0
+A9_33
+Text Label 1400 2150 0    70   ~ 0
+A10_33
+Text Label 1400 2250 0    70   ~ 0
+A11_33
+Text Label 1400 2350 0    70   ~ 0
+/IOSELECT_33
+Text Label 1400 2450 0    70   ~ 0
+/IOSTROBE_33
+Wire Wire Line
+	2100 2550 1400 2550
+Wire Wire Line
+	2100 2650 1400 2650
+Wire Wire Line
+	1400 700  1400 950 
+Connection ~ 1400 950 
+Wire Wire Line
+	1400 950  1400 1050
+Text Label 1400 2550 0    70   ~ 0
+/RESET_33
+Text Label 1400 2650 0    70   ~ 0
+RW_33
+Wire Wire Line
+	2100 2750 1400 2750
+Text Label 1950 2750 2    70   ~ 0
+/DEVSEL_33
+Text Label 3400 1150 2    70   ~ 0
+D0_33
+Wire Wire Line
+	2800 1150 3400 1150
+Wire Wire Line
+	2800 1250 3400 1250
+Wire Wire Line
+	2800 1350 3400 1350
+Wire Wire Line
+	2800 1450 3400 1450
+Wire Wire Line
+	2800 1550 3400 1550
+Wire Wire Line
+	2800 1650 3400 1650
+Wire Wire Line
+	2800 1750 3400 1750
+Wire Wire Line
+	2800 1850 3400 1850
+Text Label 3400 1250 2    70   ~ 0
+D1_33
+Text Label 3400 1350 2    70   ~ 0
+D2_33
+Text Label 3400 1450 2    70   ~ 0
+D3_33
+Text Label 3400 1550 2    70   ~ 0
+D4_33
+Text Label 3400 1650 2    70   ~ 0
+D5_33
+Text Label 3400 1750 2    70   ~ 0
+D6_33
+Text Label 3400 1850 2    70   ~ 0
+D7_33
+Text Label 3000 1950 0    70   ~ 0
+Q3R_33
+Wire Wire Line
+	2800 1950 3400 1950
+Text Label 2950 2050 0    70   ~ 0
+7M_33
+Wire Wire Line
+	2800 2050 3400 2050
+Text Label 3400 2150 2    70   ~ 0
+EN245
+Wire Wire Line
+	2800 2150 3400 2150
+Text Label 3100 2250 0    70   ~ 0
+PH0
+Text Label 3100 2350 0    70   ~ 0
+PH1
+Wire Wire Line
+	2800 2250 3100 2250
+Wire Wire Line
+	2800 2350 3100 2350
+Text Label 3100 2450 0    70   ~ 0
+PH2
+Wire Wire Line
+	2800 2450 3100 2450
+Wire Wire Line
+	2800 2550 3100 2550
+Wire Wire Line
+	2800 2650 3100 2650
+Wire Wire Line
+	2800 2750 3100 2750
+Text Label 3100 2550 0    70   ~ 0
+PH3
+Text Label 3100 2650 0    70   ~ 0
+/WREQ
+Text Label 3100 2750 0    70   ~ 0
+SEL
+$Comp
+L ice40-shield-lib:FL40YA-V36P-2X20-LF CON3
+U 1 1 610F6C3A
+P 2450 4550
+F 0 "CON3" H 2450 3285 50  0000 C CNN
+F 1 "FL40YA-V36P-2X20-LF" H 2450 3376 50  0000 C CNN
+F 2 "lime2-ice40-shield:YA-V36P-2X20-LF" H 2500 3300 50  0000 C CNN
+F 3 "" H 2450 4550 60  0000 C CNN
+	1    2450 4550
+	1    0    0    1   
+$EndComp
+Text Label 1250 3850 0    70   ~ 0
+/ENABLE1
+Wire Wire Line
+	2100 3850 1250 3850
+Text Label 1250 3950 0    70   ~ 0
+RDDATA_33
+Wire Wire Line
+	2100 3950 1250 3950
+Text Label 1250 4050 0    70   ~ 0
+SENSE_33
+Wire Wire Line
+	2100 4050 1250 4050
+Connection ~ 3400 850 
+NoConn ~ 9200 800 
+NoConn ~ 9200 900 
+NoConn ~ 9200 1000
+NoConn ~ 5350 1400
+NoConn ~ 5350 1500
+NoConn ~ 5350 1800
+NoConn ~ 5350 1900
+NoConn ~ 5350 2000
+NoConn ~ 7150 1700
+NoConn ~ 7150 1600
+NoConn ~ 7150 1500
+NoConn ~ 7150 1400
+NoConn ~ 7150 1200
+NoConn ~ 7150 1000
+NoConn ~ 7150 900 
+NoConn ~ 5200 4950
+NoConn ~ 5200 5050
+NoConn ~ 2100 4450
+NoConn ~ 2100 4550
+NoConn ~ 2100 4650
+NoConn ~ 2100 4750
+NoConn ~ 2100 4850
+NoConn ~ 2100 4950
+NoConn ~ 2100 5050
+NoConn ~ 2100 5150
+NoConn ~ 2100 5250
+NoConn ~ 2100 5350
+NoConn ~ 2100 5450
+NoConn ~ 2800 3850
+NoConn ~ 2800 3950
+NoConn ~ 2800 4050
+NoConn ~ 2800 4150
+NoConn ~ 2800 4250
+NoConn ~ 2800 4350
+NoConn ~ 2800 4450
+NoConn ~ 2800 4550
+NoConn ~ 2800 4650
+NoConn ~ 2800 4750
+NoConn ~ 2800 4850
+NoConn ~ 2800 4950
+NoConn ~ 2800 5050
+NoConn ~ 2800 5150
+NoConn ~ 2800 5250
+NoConn ~ 2800 5350
+NoConn ~ 2800 5450
+Text Label 1300 4150 0    70   ~ 0
+WRDATA
+Wire Wire Line
+	1250 4150 2100 4150
+Text Label 1250 4250 0    70   ~ 0
+/ENABLE2
+Wire Wire Line
+	1250 4250 2100 4250
+Text Label 1250 4350 0    70   ~ 0
+/EN35
+Wire Wire Line
+	1250 4350 2100 4350
+Wire Wire Line
+	2100 3550 1550 3550
+Wire Wire Line
+	1550 3550 1550 3350
+Wire Wire Line
+	2100 3650 1350 3650
+Wire Wire Line
+	1350 3650 1350 3450
+Wire Wire Line
+	2100 3750 1350 3750
+Wire Wire Line
+	1350 3750 1350 3650
+Connection ~ 1350 3650
+Text Label 1350 3450 2    70   ~ 0
+3.3V
+Text Label 1550 3350 2    70   ~ 0
+5V
+NoConn ~ 2800 3750
+Wire Wire Line
+	2800 3550 3350 3550
+Wire Wire Line
+	3350 3550 3350 3650
+Wire Wire Line
+	2800 3650 3350 3650
+Connection ~ 3350 3650
+Wire Wire Line
+	3350 3650 3350 3800
+$Comp
+L bmowdisk-eagle-import:GND #GND0102
+U 1 1 638484C0
+P 3350 3900
+F 0 "#GND0102" H 3350 3900 50  0001 C CNN
+F 1 "GND" H 3250 3800 59  0000 L BNN
+F 2 "" H 3350 3900 50  0001 C CNN
+F 3 "" H 3350 3900 50  0001 C CNN
+	1    3350 3900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5350 900 
+NoConn ~ 5350 1000
+NoConn ~ 5350 1200
+Text Label 11100 1700 2    70   ~ 0
+5V
+Text Label 11100 5100 2    70   ~ 0
+5V
+Text Label 11100 3400 2    70   ~ 0
+5V
+Text Label 11100 6800 2    70   ~ 0
+5V
+Text Label 11100 6800 2    70   ~ 0
+5V
 $EndSCHEMATC
