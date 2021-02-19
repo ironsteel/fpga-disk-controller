@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name bmowdisk-eagle-import)(type Legacy)(uri ${KIPRJMOD}/bmowdisk-eagle-import.lib)(options "")(descr ""))
-  (lib (name ice40-shield-lib)(type Legacy)(uri /home/ironsteel/kicad/fpga-disk-controller/hardware/lime2-ice40-shield.lib)(options "")(descr ""))
+  (lib (name ice40-shield-lib)(type Legacy)(uri ${KIPRJMOD}/lime2-ice40-shield.lib)(options "")(descr ""))
 )
