@@ -28,113 +28,113 @@ Wire Wire Line
 Connection ~ 10150 600 
 Wire Wire Line
 	11050 6550 10550 6550
-Text Label 10650 6550 0    70   ~ 0
+Text Label 10650 6550 0    48   ~ 0
 D0
 Wire Wire Line
 	11050 6450 10550 6450
-Text Label 10650 6450 0    70   ~ 0
+Text Label 10650 6450 0    48   ~ 0
 D1
 Wire Wire Line
 	11050 6350 10550 6350
-Text Label 10650 6350 0    70   ~ 0
+Text Label 10650 6350 0    48   ~ 0
 D2
 Wire Wire Line
 	10550 6250 11050 6250
-Text Label 10650 6250 0    70   ~ 0
+Text Label 10650 6250 0    48   ~ 0
 D3
 Wire Wire Line
 	10550 6150 11050 6150
-Text Label 10650 6150 0    70   ~ 0
+Text Label 10650 6150 0    48   ~ 0
 D4
 Wire Wire Line
 	10550 6050 11050 6050
-Text Label 10650 6050 0    70   ~ 0
+Text Label 10650 6050 0    48   ~ 0
 D5
 Wire Wire Line
 	10550 5950 11050 5950
-Text Label 10650 5950 0    70   ~ 0
+Text Label 10650 5950 0    48   ~ 0
 D6
 Wire Wire Line
 	10550 5850 11050 5850
-Text Label 10650 5850 0    70   ~ 0
+Text Label 10650 5850 0    48   ~ 0
 D7
 Wire Wire Line
 	12850 4950 13350 4950
-Text Label 12950 4950 0    70   ~ 0
+Text Label 12950 4950 0    48   ~ 0
 RW
 Wire Wire Line
 	11050 5750 10550 5750
 Wire Wire Line
 	11050 5350 10750 5350
-Text Label 10850 5350 0    70   ~ 0
+Text Label 10850 5350 0    48   ~ 0
 Q3
 Wire Wire Line
 	10350 5350 10050 5350
-Text Label 10150 5350 0    70   ~ 0
+Text Label 10150 5350 0    48   ~ 0
 Q3R
 Wire Wire Line
 	10550 5250 11050 5250
-Text Label 10650 5250 0    70   ~ 0
+Text Label 10650 5250 0    48   ~ 0
 7M
 Wire Wire Line
 	10550 4750 11050 4750
-Text Label 10650 4750 0    70   ~ 0
-/RESET
+Text Label 10650 4750 0    48   ~ 0
+~RESET
 Wire Wire Line
 	12850 4750 13050 4750
-Text Label 12850 4750 0    70   ~ 0
-/IOSTROBE
+Text Label 12850 4750 0    48   ~ 0
+~IOSTROBE
 Wire Wire Line
 	12850 6650 13350 6650
-Text Label 12950 6650 0    70   ~ 0
-/IOSELECT
+Text Label 12950 6650 0    48   ~ 0
+~IOSELECT
 Wire Wire Line
 	13350 6550 12850 6550
-Text Label 12950 6550 0    70   ~ 0
+Text Label 12950 6550 0    48   ~ 0
 A0
 Wire Wire Line
 	13350 6450 12850 6450
-Text Label 12950 6450 0    70   ~ 0
+Text Label 12950 6450 0    48   ~ 0
 A1
 Wire Wire Line
 	13350 6350 12850 6350
-Text Label 12950 6350 0    70   ~ 0
+Text Label 12950 6350 0    48   ~ 0
 A2
 Wire Wire Line
 	13350 6250 12850 6250
-Text Label 12950 6250 0    70   ~ 0
+Text Label 12950 6250 0    48   ~ 0
 A3
 Wire Wire Line
 	13350 6150 12850 6150
-Text Label 12950 6150 0    70   ~ 0
+Text Label 12950 6150 0    48   ~ 0
 A4
 Wire Wire Line
 	13350 6050 12850 6050
-Text Label 12950 6050 0    70   ~ 0
+Text Label 12950 6050 0    48   ~ 0
 A5
 Wire Wire Line
 	13350 5950 12850 5950
-Text Label 12950 5950 0    70   ~ 0
+Text Label 12950 5950 0    48   ~ 0
 A6
 Wire Wire Line
 	13350 5850 12850 5850
-Text Label 12950 5850 0    70   ~ 0
+Text Label 12950 5850 0    48   ~ 0
 A7
 Wire Wire Line
 	13350 5750 12850 5750
-Text Label 12950 5750 0    70   ~ 0
+Text Label 12950 5750 0    48   ~ 0
 A8
 Wire Wire Line
 	13350 5650 12850 5650
-Text Label 12950 5650 0    70   ~ 0
+Text Label 12950 5650 0    48   ~ 0
 A9
 Wire Wire Line
 	13350 5550 12850 5550
-Text Label 12950 5550 0    70   ~ 0
+Text Label 12950 5550 0    48   ~ 0
 A10
 Wire Wire Line
 	13350 5450 12850 5450
-Text Label 12950 5450 0    70   ~ 0
+Text Label 12950 5450 0    48   ~ 0
 A11
 Wire Wire Line
 	11350 4350 12550 4350
@@ -142,78 +142,78 @@ Wire Wire Line
 	11350 4450 12550 4450
 Wire Wire Line
 	12850 4250 13000 4250
-Text Label 13000 4250 0    70   ~ 0
+Text Label 13000 4250 0    48   ~ 0
 5V
 Wire Wire Line
 	10150 1100 9750 1100
-Text Label 9750 1100 0    70   ~ 0
+Text Label 9750 1100 0    48   ~ 0
 5V
 Wire Wire Line
 	10750 600  11250 600 
-Text Label 10850 600  0    70   ~ 0
+Text Label 10850 600  0    48   ~ 0
 PH0
 Wire Wire Line
 	10750 700  11250 700 
-Text Label 10850 700  0    70   ~ 0
+Text Label 10850 700  0    48   ~ 0
 PH1
 Wire Wire Line
 	10750 800  11250 800 
-Text Label 10850 800  0    70   ~ 0
+Text Label 10850 800  0    48   ~ 0
 PH2
 Wire Wire Line
 	10750 900  11250 900 
-Text Label 10850 900  0    70   ~ 0
+Text Label 10850 900  0    48   ~ 0
 PH3
 Wire Wire Line
 	10750 1000 11250 1000
-Text Label 10850 1000 0    70   ~ 0
-/WREQ
+Text Label 10850 1000 0    48   ~ 0
+~WREQ
 Wire Wire Line
 	10750 1100 11350 1100
-Text Label 10850 1100 0    70   ~ 0
+Text Label 10850 1100 0    48   ~ 0
 SEL
 Wire Wire Line
 	10750 1200 11250 1200
-Text Label 10850 1200 0    70   ~ 0
-/ENABLE1
+Text Label 10850 1200 0    48   ~ 0
+~ENABLE1
 Wire Wire Line
 	10750 1300 11250 1300
-Text Label 10850 1300 0    70   ~ 0
+Text Label 10850 1300 0    48   ~ 0
 RDDATA
 Wire Wire Line
 	10750 1400 11250 1400
-Text Label 10850 1400 0    70   ~ 0
+Text Label 10850 1400 0    48   ~ 0
 WRDATA
 Wire Wire Line
 	10750 1500 11250 1500
-Text Label 10850 1500 0    70   ~ 0
+Text Label 10850 1500 0    48   ~ 0
 SENSE
 Wire Wire Line
 	10150 900  9650 900 
-Text Label 9750 900  0    70   ~ 0
-/EN35
+Text Label 9750 900  0    48   ~ 0
+~EN35
 Wire Wire Line
 	9650 800  10150 800 
-Text Label 9750 800  0    70   ~ 0
-/ENABLE2
+Text Label 9750 800  0    48   ~ 0
+~ENABLE2
 Wire Wire Line
 	10150 1000 9750 1000
-Text Label 9750 1000 0    70   ~ 0
+Text Label 9750 1000 0    48   ~ 0
 -12V
 Wire Wire Line
 	11050 4950 10550 4950
-Text Label 10650 4950 0    70   ~ 0
+Text Label 10650 4950 0    48   ~ 0
 -12V
 Wire Wire Line
 	10150 1200 9750 1200
 Wire Wire Line
 	10150 1300 10150 1200
 Connection ~ 10150 1200
-Text Label 9750 1200 0    70   ~ 0
+Text Label 9750 1200 0    48   ~ 0
 12V
 Wire Wire Line
 	11050 6650 10550 6650
-Text Label 10650 6650 0    70   ~ 0
+Text Label 10650 6650 0    48   ~ 0
 12V
 $Comp
 L bmowdisk-eagle-import:A2-50PINMINI ST1
@@ -824,7 +824,7 @@ Wire Wire Line
 	2100 1950 1700 1950
 Wire Wire Line
 	1700 1950 1700 1800
-Text Label 1700 1800 2    70   ~ 0
+Text Label 1700 1800 2    48   ~ 0
 5V
 $Comp
 L bmowdisk-eagle-import:GND #GND0101
@@ -850,9 +850,9 @@ Wire Wire Line
 	2100 2050 1400 2050
 Wire Wire Line
 	2100 2150 1400 2150
-Text Label 1400 1800 2    70   ~ 0
+Text Label 1400 1800 2    48   ~ 0
 3.3V
-Text Label 1400 2250 0    70   ~ 0
+Text Label 1400 2250 0    48   ~ 0
 A0_33
 Wire Wire Line
 	2100 2250 1400 2250
@@ -864,23 +864,23 @@ Wire Wire Line
 	2100 2550 1400 2550
 Wire Wire Line
 	2100 2650 1400 2650
-Text Label 1400 2350 0    70   ~ 0
+Text Label 1400 2350 0    48   ~ 0
 A1_33
-Text Label 1400 2450 0    70   ~ 0
+Text Label 1400 2450 0    48   ~ 0
 A2_33
-Text Label 1400 2550 0    70   ~ 0
+Text Label 1400 2550 0    48   ~ 0
 A3_33
-Text Label 1400 2650 0    70   ~ 0
+Text Label 1400 2650 0    48   ~ 0
 A4_33
 Wire Wire Line
 	2100 2750 1400 2750
 Wire Wire Line
 	2100 2850 1400 2850
-Text Label 1400 2750 0    70   ~ 0
+Text Label 1400 2750 0    48   ~ 0
 A5_33
-Text Label 1400 2850 0    70   ~ 0
+Text Label 1400 2850 0    48   ~ 0
 A6_33
-Text Label 1400 2950 0    70   ~ 0
+Text Label 1400 2950 0    48   ~ 0
 A7_33
 Wire Wire Line
 	2100 2950 1400 2950
@@ -896,16 +896,16 @@ Wire Wire Line
 	2100 3450 1400 3450
 Wire Wire Line
 	1400 3550 2100 3550
-Text Label 1400 3050 0    70   ~ 0
+Text Label 1400 3050 0    48   ~ 0
 A8_33
-Text Label 1400 3150 0    70   ~ 0
+Text Label 1400 3150 0    48   ~ 0
 A9_33
-Text Label 1400 3250 0    70   ~ 0
+Text Label 1400 3250 0    48   ~ 0
 A10_33
-Text Label 1400 3350 0    70   ~ 0
+Text Label 1400 3350 0    48   ~ 0
 A11_33
-Text Label 1400 3550 0    70   ~ 0
-/IOSTROBE_33
+Text Label 1400 3550 0    48   ~ 0
+~IOSTROBE_33
 Wire Wire Line
 	2100 3650 1400 3650
 Wire Wire Line
@@ -915,15 +915,15 @@ Wire Wire Line
 Connection ~ 1400 2050
 Wire Wire Line
 	1400 2050 1400 2150
-Text Label 1400 3650 0    70   ~ 0
-/RESET_33
-Text Label 1400 3750 0    70   ~ 0
+Text Label 1400 3650 0    48   ~ 0
+~RESET_33
+Text Label 1400 3750 0    48   ~ 0
 RW_33
 Wire Wire Line
 	2100 3850 1400 3850
-Text Label 1950 3850 2    70   ~ 0
-/DEVSEL_33
-Text Label 3400 2250 2    70   ~ 0
+Text Label 1950 3850 2    48   ~ 0
+~DEVSEL_33
+Text Label 3400 2250 2    48   ~ 0
 D0_33
 Wire Wire Line
 	2800 2250 3400 2250
@@ -941,41 +941,41 @@ Wire Wire Line
 	2800 2850 3400 2850
 Wire Wire Line
 	2800 2950 3400 2950
-Text Label 3400 2350 2    70   ~ 0
+Text Label 3400 2350 2    48   ~ 0
 D1_33
-Text Label 3400 2450 2    70   ~ 0
+Text Label 3400 2450 2    48   ~ 0
 D2_33
-Text Label 3400 2550 2    70   ~ 0
+Text Label 3400 2550 2    48   ~ 0
 D3_33
-Text Label 3400 2650 2    70   ~ 0
+Text Label 3400 2650 2    48   ~ 0
 D4_33
-Text Label 3400 2750 2    70   ~ 0
+Text Label 3400 2750 2    48   ~ 0
 D5_33
-Text Label 3400 2850 2    70   ~ 0
+Text Label 3400 2850 2    48   ~ 0
 D6_33
-Text Label 3400 2950 2    70   ~ 0
+Text Label 3400 2950 2    48   ~ 0
 D7_33
-Text Label 3000 3050 0    70   ~ 0
+Text Label 3000 3050 0    48   ~ 0
 Q3R_33
 Wire Wire Line
 	2800 3050 3400 3050
-Text Label 2950 3150 0    70   ~ 0
+Text Label 2950 3150 0    48   ~ 0
 7M_33
 Wire Wire Line
 	2800 3150 3400 3150
-Text Label 3400 3250 2    70   ~ 0
+Text Label 3400 3250 2    48   ~ 0
 EN245
 Wire Wire Line
 	2800 3250 3400 3250
-Text Label 3100 3350 0    70   ~ 0
+Text Label 3100 3350 0    48   ~ 0
 PH0
-Text Label 3100 3450 0    70   ~ 0
+Text Label 3100 3450 0    48   ~ 0
 PH1
 Wire Wire Line
 	2800 3350 3100 3350
 Wire Wire Line
 	2800 3450 3100 3450
-Text Label 3100 3550 0    70   ~ 0
+Text Label 3100 3550 0    48   ~ 0
 PH2
 Wire Wire Line
 	2800 3550 3100 3550
@@ -985,11 +985,11 @@ Wire Wire Line
 	2800 3750 3100 3750
 Wire Wire Line
 	2800 3850 3100 3850
-Text Label 3100 3650 0    70   ~ 0
+Text Label 3100 3650 0    48   ~ 0
 PH3
-Text Label 3100 3750 0    70   ~ 0
-/WREQ
-Text Label 3100 3850 0    70   ~ 0
+Text Label 3100 3750 0    48   ~ 0
+~WREQ
+Text Label 3100 3850 0    48   ~ 0
 SEL
 $Comp
 L ice40-shield-lib:FL40YA-V36P-2X20-LF CON3
@@ -1002,15 +1002,15 @@ F 3 "" H 2450 5900 60  0000 C CNN
 	1    2450 5900
 	1    0    0    1   
 $EndComp
-Text Label 1250 5200 0    70   ~ 0
-/ENABLE1
+Text Label 1250 5200 0    48   ~ 0
+~ENABLE1
 Wire Wire Line
 	2100 5200 1250 5200
-Text Label 1250 5300 0    70   ~ 0
+Text Label 1250 5300 0    48   ~ 0
 RDDATA_33
 Wire Wire Line
 	2100 5300 1250 5300
-Text Label 1250 5400 0    70   ~ 0
+Text Label 1250 5400 0    48   ~ 0
 SENSE_33
 Wire Wire Line
 	2100 5400 1250 5400
@@ -1057,16 +1057,16 @@ NoConn ~ 2800 6500
 NoConn ~ 2800 6600
 NoConn ~ 2800 6700
 NoConn ~ 2800 6800
-Text Label 1300 5500 0    70   ~ 0
+Text Label 1300 5500 0    48   ~ 0
 WRDATA
 Wire Wire Line
 	1250 5500 2100 5500
-Text Label 1250 5600 0    70   ~ 0
-/ENABLE2
+Text Label 1250 5600 0    48   ~ 0
+~ENABLE2
 Wire Wire Line
 	1250 5600 2100 5600
-Text Label 1250 5700 0    70   ~ 0
-/EN35
+Text Label 1250 5700 0    48   ~ 0
+~EN35
 Wire Wire Line
 	1250 5700 2100 5700
 Wire Wire Line
@@ -1082,9 +1082,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 5100 1350 5000
 Connection ~ 1350 5000
-Text Label 1350 4800 2    70   ~ 0
+Text Label 1350 4800 2    48   ~ 0
 3.3V
-Text Label 1550 4700 2    70   ~ 0
+Text Label 1550 4700 2    48   ~ 0
 5V
 NoConn ~ 2800 5100
 Wire Wire Line
@@ -1110,7 +1110,7 @@ $EndComp
 NoConn ~ 11050 4550
 NoConn ~ 11050 4650
 NoConn ~ 11050 4850
-Text Label 10650 5750 0    70   ~ 0
+Text Label 10650 5750 0    48   ~ 0
 /DEVSEL
 $Comp
 L bmowdisk-eagle-import:SN74LVC8T245PW U1
@@ -1118,7 +1118,7 @@ U 1 1 6070063C
 P 7100 1400
 F 0 "U1" H 6750 2050 50  0000 C CNN
 F 1 "SN74LVC8T245PW" H 7100 1100 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 200 50  0001 C CNN
+F 2 "bmowdisk:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 7200 1750 50  0001 C CNN
 	1    7100 1400
 	1    0    0    -1  
@@ -1173,9 +1173,9 @@ $EndComp
 Wire Wire Line
 	7100 2200 7100 2300
 Connection ~ 7100 2200
-Text Label 7000 250  2    70   ~ 0
+Text Label 7000 250  2    48   ~ 0
 3.3V
-Text Label 7200 250  0    70   ~ 0
+Text Label 7200 250  0    48   ~ 0
 5V
 $Comp
 L bmowdisk-eagle-import:GND #GND0104
@@ -1298,9 +1298,9 @@ F 3 "" H 7700 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 2950 7200 3300
-Text Label 7200 2950 0    70   ~ 0
+Text Label 7200 2950 0    48   ~ 0
 5V
-Text Label 7000 2950 2    70   ~ 0
+Text Label 7000 2950 2    48   ~ 0
 3.3V
 Connection ~ 7100 4900
 Wire Wire Line
@@ -1349,7 +1349,7 @@ U 1 1 621E301F
 P 7100 4100
 F 0 "U2" H 6750 4750 50  0000 C CNN
 F 1 "SN74LVC8T245PW" H 7100 3800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 2900 50  0001 C CNN
+F 2 "bmowdisk:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 7200 4450 50  0001 C CNN
 	1    7100 4100
 	1    0    0    -1  
@@ -1418,9 +1418,9 @@ F 3 "" H 7700 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 5400 7200 5750
-Text Label 7200 5400 0    70   ~ 0
+Text Label 7200 5400 0    48   ~ 0
 5V
-Text Label 7000 5400 2    70   ~ 0
+Text Label 7000 5400 2    48   ~ 0
 3.3V
 Connection ~ 7100 7350
 Wire Wire Line
@@ -1467,7 +1467,7 @@ U 1 1 6291FA9E
 P 7100 6550
 F 0 "U3" H 6750 7200 50  0000 C CNN
 F 1 "SN74LVC8T245PW" H 7100 6250 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 5350 50  0001 C CNN
+F 2 "bmowdisk:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 7200 6900 50  0001 C CNN
 	1    7100 6550
 	1    0    0    -1  
@@ -1536,9 +1536,9 @@ F 3 "" H 7700 8250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 7850 7200 8200
-Text Label 7200 7850 0    70   ~ 0
+Text Label 7200 7850 0    48   ~ 0
 5V
-Text Label 7000 7850 2    70   ~ 0
+Text Label 7000 7850 2    48   ~ 0
 3.3V
 Wire Wire Line
 	7100 9800 7100 9900
@@ -1579,7 +1579,7 @@ U 1 1 6294DA97
 P 7100 9000
 F 0 "U4" H 6750 9650 50  0000 C CNN
 F 1 "SN74LVC8T245PW" H 7100 8700 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 7800 50  0001 C CNN
+F 2 "bmowdisk:TSSOP-24_4.4x7.8mm_P0.65mm" H 7100 7800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 7200 9350 50  0001 C CNN
 	1    7100 9000
 	1    0    0    -1  
@@ -1590,92 +1590,90 @@ Wire Wire Line
 	7700 8600 8350 8600
 Wire Wire Line
 	7700 8700 8350 8700
-Text Label 5750 1200 0    70   ~ 0
-/DEVSEL_33
-Text Label 5750 1300 0    70   ~ 0
+Text Label 5750 1200 0    48   ~ 0
+~DEVSEL_33
+Text Label 5750 1300 0    48   ~ 0
 RDDATA_33
-Text Label 5750 1400 0    70   ~ 0
+Text Label 5750 1400 0    48   ~ 0
 SENSE_33
-Text Label 5750 1500 0    70   ~ 0
-/RESET_33
-Text Label 5750 1600 0    70   ~ 0
-/IOSTROBE_33
-Text Label 7700 1200 0    70   ~ 0
+Text Label 5750 1500 0    48   ~ 0
+~RESET_33
+Text Label 5750 1600 0    48   ~ 0
+~IOSTROBE_33
+Text Label 7700 1200 0    48   ~ 0
 /DEVSEL
-Text Label 7700 1300 0    70   ~ 0
+Text Label 7700 1300 0    48   ~ 0
 RDDATA
-Text Label 7700 1400 0    70   ~ 0
+Text Label 7700 1400 0    48   ~ 0
 SENSE
-Text Label 7750 1500 0    70   ~ 0
-/RESET
-Text Label 7750 1600 0    70   ~ 0
-/IOSTROBE
-Text Label 5750 3600 0    70   ~ 0
+Text Label 7750 1600 0    48   ~ 0
+~IOSTROBE
+Text Label 5750 3600 0    48   ~ 0
 RW_33
-Text Label 5750 3700 0    70   ~ 0
+Text Label 5750 3700 0    48   ~ 0
 7M_33
-Text Label 5750 3800 0    70   ~ 0
+Text Label 5750 3800 0    48   ~ 0
 Q3R_33
-Text Label 5750 3900 0    70   ~ 0
+Text Label 5750 3900 0    48   ~ 0
 A11_33
-Text Label 5750 4000 0    70   ~ 0
+Text Label 5750 4000 0    48   ~ 0
 A10_33
-Text Label 5750 4100 0    70   ~ 0
+Text Label 5750 4100 0    48   ~ 0
 A9_33
-Text Label 5750 4200 0    70   ~ 0
+Text Label 5750 4200 0    48   ~ 0
 A8_33
-Text Label 5750 4300 0    70   ~ 0
+Text Label 5750 4300 0    48   ~ 0
 A7_33
-Text Label 7800 3600 0    70   ~ 0
+Text Label 7800 3600 0    48   ~ 0
 RW
-Text Label 7800 3700 0    70   ~ 0
+Text Label 7800 3700 0    48   ~ 0
 7M
-Text Label 7800 3800 0    70   ~ 0
+Text Label 7800 3800 0    48   ~ 0
 Q3R
-Text Label 7800 3900 0    70   ~ 0
+Text Label 7800 3900 0    48   ~ 0
 A11
-Text Label 7800 4000 0    70   ~ 0
+Text Label 7800 4000 0    48   ~ 0
 A10
-Text Label 7800 4100 0    70   ~ 0
+Text Label 7800 4100 0    48   ~ 0
 A9
-Text Label 7800 4200 0    70   ~ 0
+Text Label 7800 4200 0    48   ~ 0
 A8
-Text Label 7800 4300 0    70   ~ 0
+Text Label 7800 4300 0    48   ~ 0
 A7
 Wire Wire Line
 	7700 6650 8350 6650
-Text Label 5750 6050 0    70   ~ 0
+Text Label 5750 6050 0    48   ~ 0
 A6_33
-Text Label 5750 6150 0    70   ~ 0
+Text Label 5750 6150 0    48   ~ 0
 A5_33
-Text Label 5750 6250 0    70   ~ 0
+Text Label 5750 6250 0    48   ~ 0
 A4_33
-Text Label 5750 6350 0    70   ~ 0
+Text Label 5750 6350 0    48   ~ 0
 A3_33
-Text Label 5750 6450 0    70   ~ 0
+Text Label 5750 6450 0    48   ~ 0
 A2_33
-Text Label 5750 6550 0    70   ~ 0
+Text Label 5750 6550 0    48   ~ 0
 A1_33
-Text Label 5750 6650 0    70   ~ 0
+Text Label 5750 6650 0    48   ~ 0
 A0_33
-Text Label 5750 6750 0    70   ~ 0
-/IOSELECT_33
-Text Label 7900 6050 0    70   ~ 0
+Text Label 5750 6750 0    48   ~ 0
+~IOSELECT_33
+Text Label 7900 6050 0    48   ~ 0
 A6
-Text Label 7900 6150 0    70   ~ 0
+Text Label 7900 6150 0    48   ~ 0
 A5
-Text Label 7900 6250 0    70   ~ 0
+Text Label 7900 6250 0    48   ~ 0
 A4
-Text Label 7900 6350 0    70   ~ 0
+Text Label 7900 6350 0    48   ~ 0
 A3
-Text Label 7900 6450 0    70   ~ 0
+Text Label 7900 6450 0    48   ~ 0
 A2
-Text Label 7900 6550 0    70   ~ 0
+Text Label 7900 6550 0    48   ~ 0
 A1
-Text Label 7900 6650 0    70   ~ 0
+Text Label 7900 6650 0    48   ~ 0
 A0
-Text Label 7750 6750 0    70   ~ 0
-/IOSELECT
+Text Label 7750 6750 0    48   ~ 0
+~IOSELECT
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R5
 U 1 1 62B77345
@@ -1710,45 +1708,45 @@ Wire Wire Line
 	8650 750  8650 550 
 Wire Wire Line
 	8950 750  8950 550 
-Text Label 8650 550  0    70   ~ 0
+Text Label 8650 550  0    48   ~ 0
 5V
-Text Label 8950 550  0    70   ~ 0
+Text Label 8950 550  0    48   ~ 0
 5V
-Text Label 6000 8500 0    70   ~ 0
+Text Label 6000 8500 0    48   ~ 0
 D7_33
-Text Label 6000 8600 0    70   ~ 0
+Text Label 6000 8600 0    48   ~ 0
 D6_33
-Text Label 6000 8700 0    70   ~ 0
+Text Label 6000 8700 0    48   ~ 0
 D5_33
-Text Label 6000 8800 0    70   ~ 0
+Text Label 6000 8800 0    48   ~ 0
 D4_33
-Text Label 6000 8900 0    70   ~ 0
+Text Label 6000 8900 0    48   ~ 0
 D3_33
-Text Label 6000 9000 0    70   ~ 0
+Text Label 6000 9000 0    48   ~ 0
 D2_33
-Text Label 6000 9100 0    70   ~ 0
+Text Label 6000 9100 0    48   ~ 0
 D1_33
-Text Label 6000 9200 0    70   ~ 0
+Text Label 6000 9200 0    48   ~ 0
 D0_33
-Text Label 7850 8500 0    70   ~ 0
+Text Label 7850 8500 0    48   ~ 0
 D7
-Text Label 7850 8600 0    70   ~ 0
+Text Label 7850 8600 0    48   ~ 0
 D6
-Text Label 7850 8700 0    70   ~ 0
+Text Label 7850 8700 0    48   ~ 0
 D5
-Text Label 7850 8800 0    70   ~ 0
+Text Label 7850 8800 0    48   ~ 0
 D4
-Text Label 7850 8900 0    70   ~ 0
+Text Label 7850 8900 0    48   ~ 0
 D3
-Text Label 7850 9000 0    70   ~ 0
+Text Label 7850 9000 0    48   ~ 0
 D2
-Text Label 7850 9100 0    70   ~ 0
+Text Label 7850 9100 0    48   ~ 0
 D1
-Text Label 7850 9200 0    70   ~ 0
+Text Label 7850 9200 0    48   ~ 0
 D0
-Text Label 6000 9500 0    70   ~ 0
+Text Label 6000 9500 0    48   ~ 0
 EN245
-Text Label 3900 9400 0    70   ~ 0
+Text Label 3900 9400 0    48   ~ 0
 RW
 $Comp
 L bmowdisk-eagle-import:RESISTOR0805-RES R1
@@ -1807,8 +1805,10 @@ F 3 "" H 5300 8850 50  0001 C CNN
 	1    5300 8850
 	0    1    1    0   
 $EndComp
-Text Label 5300 8650 2    70   ~ 0
+Text Label 5300 8650 2    48   ~ 0
 3.3V
-Text Label 1400 3450 0    70   ~ 0
-/IOSELECT_33
+Text Label 1400 3450 0    48   ~ 0
+~IOSELECT_33
+Text Label 7750 1500 0    48   ~ 0
+~RESET
 $EndSCHEMATC
