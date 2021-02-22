@@ -851,7 +851,7 @@ Wire Wire Line
 	2100 2150 1400 2150
 Text Label 1400 1800 2    48   ~ 0
 3.3V
-Text Label 3100 2350 0    48   ~ 0
+Text Label 3100 2550 0    48   ~ 0
 A0_33
 Wire Wire Line
 	2100 2250 1400 2250
@@ -863,51 +863,49 @@ Wire Wire Line
 	2100 2550 1400 2550
 Wire Wire Line
 	2100 2650 1400 2650
-Text Label 3100 2450 0    48   ~ 0
-A1_33
-Text Label 3100 2550 0    48   ~ 0
-A2_33
 Text Label 3100 2650 0    48   ~ 0
-A3_33
+A1_33
 Text Label 3100 2750 0    48   ~ 0
+A2_33
+Text Label 3100 2850 0    48   ~ 0
+A3_33
+Text Label 3100 2950 0    48   ~ 0
 A4_33
 Wire Wire Line
 	2100 2750 1400 2750
 Wire Wire Line
 	2100 2850 1400 2850
-Text Label 3100 2850 0    48   ~ 0
-A5_33
-Text Label 3100 2950 0    48   ~ 0
-A6_33
 Text Label 3100 3050 0    48   ~ 0
+A5_33
+Text Label 3100 3150 0    48   ~ 0
+A6_33
+Text Label 3100 3250 0    48   ~ 0
 A7_33
 Wire Wire Line
 	2100 2950 1400 2950
-Text Label 3100 3150 0    48   ~ 0
-A8_33
-Text Label 3100 3250 0    48   ~ 0
-A9_33
 Text Label 3100 3350 0    48   ~ 0
-A10_33
+A8_33
 Text Label 3100 3450 0    48   ~ 0
+A9_33
+Text Label 3100 3550 0    48   ~ 0
+A10_33
+Text Label 3100 3650 0    48   ~ 0
 A11_33
-Text Label 3000 5900 0    48   ~ 0
+Text Label 2850 6100 0    48   ~ 0
 ~IOSTROBE_33
 Wire Wire Line
 	1400 1800 1400 2050
 Connection ~ 1400 2050
 Wire Wire Line
 	1400 2050 1400 2150
-Text Label 3050 6000 0    48   ~ 0
+Text Label 2850 6200 0    48   ~ 0
 ~RESET_33
-Text Label 3100 3850 0    48   ~ 0
+Text Label 1650 3850 0    48   ~ 0
 RW_33
-Text Label 3300 6300 2    48   ~ 0
+Text Label 3200 6500 2    48   ~ 0
 ~DEVSEL_33
 Text Label 1600 2250 2    48   ~ 0
 D0_33
-Wire Wire Line
-	2800 2250 3400 2250
 Wire Wire Line
 	2800 2350 3400 2350
 Wire Wire Line
@@ -936,27 +934,27 @@ Text Label 1600 2850 2    48   ~ 0
 D6_33
 Text Label 1600 2950 2    48   ~ 0
 D7_33
-Text Label 3100 3650 0    48   ~ 0
+Text Label 3100 3750 0    48   ~ 0
 Q3R_33
 Wire Wire Line
 	2800 3050 3400 3050
-Text Label 3100 3750 0    48   ~ 0
+Text Label 3100 3850 0    48   ~ 0
 7M_33
 Wire Wire Line
 	2800 3150 3400 3150
-Text Label 3400 2150 2    48   ~ 0
+Text Label 3400 2350 2    48   ~ 0
 EN245
 Wire Wire Line
 	2800 3250 3400 3250
-Text Label 3050 5100 0    48   ~ 0
+Text Label 2850 5300 0    48   ~ 0
 PH0
-Text Label 3050 5200 0    48   ~ 0
+Text Label 2850 5400 0    48   ~ 0
 PH1
 Wire Wire Line
 	2800 3350 3100 3350
 Wire Wire Line
 	2800 3450 3100 3450
-Text Label 3050 5300 0    48   ~ 0
+Text Label 2850 5500 0    48   ~ 0
 PH2
 Wire Wire Line
 	2800 3550 3100 3550
@@ -966,11 +964,11 @@ Wire Wire Line
 	2800 3750 3100 3750
 Wire Wire Line
 	2800 3850 3100 3850
-Text Label 3050 5400 0    48   ~ 0
+Text Label 2850 5600 0    48   ~ 0
 PH3
-Text Label 3050 5500 0    48   ~ 0
+Text Label 2850 5700 0    48   ~ 0
 ~WREQ
-Text Label 3050 5600 0    48   ~ 0
+Text Label 2850 5800 0    48   ~ 0
 SEL
 $Comp
 L ice40-shield-lib:FL40YA-V36P-2X20-LF CON3
@@ -983,15 +981,15 @@ F 3 "" H 2450 5900 60  0000 C CNN
 	1    2450 5900
 	1    0    0    1   
 $EndComp
-Text Label 3050 5700 0    48   ~ 0
+Text Label 2850 5900 0    48   ~ 0
 ~ENABLE1
 Wire Wire Line
 	2100 5200 1250 5200
-Text Label 3050 6200 0    48   ~ 0
+Text Label 2850 6400 0    48   ~ 0
 RDDATA_33
 Wire Wire Line
 	2100 5300 1250 5300
-Text Label 3050 6100 0    48   ~ 0
+Text Label 2850 6300 0    48   ~ 0
 SENSE_33
 Connection ~ 3400 1950
 NoConn ~ 11050 5050
@@ -1019,7 +1017,7 @@ NoConn ~ 2100 6500
 NoConn ~ 2100 6600
 NoConn ~ 2100 6700
 NoConn ~ 2100 6800
-Text Label 3050 5800 0    48   ~ 0
+Text Label 2850 6000 0    48   ~ 0
 WRDATA
 Text Label 1250 5200 0    48   ~ 0
 ~ENABLE2
@@ -1762,14 +1760,10 @@ F 3 "" H 5300 8850 50  0001 C CNN
 $EndComp
 Text Label 5300 8650 2    48   ~ 0
 3.3V
-Text Label 3100 2250 0    48   ~ 0
+Text Label 2950 2450 0    48   ~ 0
 ~IOSELECT_33
 Text Label 7750 1500 0    48   ~ 0
 ~RESET
-Wire Wire Line
-	2800 5100 3050 5100
-Wire Wire Line
-	2800 5200 3050 5200
 Wire Wire Line
 	2800 5300 3050 5300
 Wire Wire Line
@@ -1788,10 +1782,6 @@ Wire Wire Line
 	2800 6100 3050 6100
 Wire Wire Line
 	2800 6200 3050 6200
-Wire Wire Line
-	2800 2150 3400 2150
-Wire Wire Line
-	2800 6400 3050 6400
 Wire Wire Line
 	2800 6700 3050 6700
 Wire Wire Line
@@ -1812,9 +1802,16 @@ NoConn ~ 2100 3450
 NoConn ~ 2100 3550
 NoConn ~ 2100 3650
 NoConn ~ 2100 3750
-NoConn ~ 2100 3850
 NoConn ~ 2100 5400
 NoConn ~ 2100 5500
 NoConn ~ 2100 5600
 NoConn ~ 2100 5700
+Wire Wire Line
+	2100 3850 1650 3850
+NoConn ~ 2800 2150
+NoConn ~ 2800 2250
+Wire Wire Line
+	2800 6400 3250 6400
+NoConn ~ 2800 5100
+NoConn ~ 2800 5200
 $EndSCHEMATC
