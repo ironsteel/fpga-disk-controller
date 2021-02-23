@@ -1,0 +1,46 @@
+set_io addr[0]  D15
+set_io addr[1]  F12
+set_io addr[2]  F14
+set_io addr[3]  G12
+set_io addr[4]  D16
+set_io addr[5]  G13
+set_io addr[6]  E16
+set_io addr[7]  G14
+set_io addr[8]  F15
+set_io addr[9]  G11
+set_io addr[10] F16
+set_io addr[11] G10
+
+set_io data[0]  M15
+set_io data[1]  J11
+set_io data[2]  L16
+set_io data[3]  K13
+set_io data[4]  K14
+set_io data[5]  J15
+set_io data[6]  K15
+set_io data[7]  K16
+
+set_io q3 G15
+set_io _reset M6
+set_io fclk H12
+set_io rw G16
+set_io _iosel F11
+set_io _iostrobe M3
+
+set_io _en245 E14
+
+set_io phase[0] N4
+set_io phase[1] R1
+set_io phase[2] M5
+set_io phase[3] P2
+
+set_io _wrreq M4
+set_io select P1
+set_io _enbl1 N3
+set_io wrdata L5
+set_io sense N2
+set_io rddata L7
+set_io _devsel M2
+
+set_io _enbl2 C16
+set_io _en35 F13
