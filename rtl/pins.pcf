@@ -1,3 +1,4 @@
+set_io clk_100m  J3
 set_io addr[0]  D15
 set_io addr[1]  F12
 set_io addr[2]  F14
@@ -44,3 +45,20 @@ set_io _devsel M2
 
 set_io _enbl2 C16
 set_io _en35 F13
+
+#set_io dbgDataOut[0] E4
+#set_io dbgDataOut[1] B2
+#set_io dbgDataOut[2] F5
+#set_io dbgDataOut[3] B1
+#set_io dbgDataOut[4] C1
+#set_io dbgDataOut[5] C2
+#set_io dbgDataOut[6] F4
+#set_io dbgDataOut[7] D2
+
+set_io rx  F3
+set_io tx  H3
+set_io iostrobe_n G3
+set_io iosel_n    E2
+set_io devsel_n   H5
+set_io bufen    E3
+set_io btn    K11

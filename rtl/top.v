@@ -3,6 +3,7 @@
 
 module top(
 	// bus interface
+	input clk_100m,
 	input [11:0] addr,
 	input fclk, // Clock for serial communication, either 7 or 8 MHz (7 MHz on Apple II)
 	input q3, // 2 MHz non-symmetric timing signal
@@ -28,11 +29,23 @@ module top(
 	input spi_miso,
 	output spi_cs,*/
 	// level-shifting buffers
-	output _en245 // bidirectional connection of data bus to FPGA
+	output _en245, // bidirectional connection of data bus to FPGA
+	//output [7:0] dbgDataOut
 	// debugging: LEDs or switches or misc stuff
 //	output [7:0] debugInfo
+	input rx,
+	output tx,
+	output devsel_n,
+	output iostrobe_n,
+	output iosel_n,
+	output bufen,
+	input btn
     );
 
+assign iostrobe_n = latch;
+assign iosel_n = latch;
+assign devsel_n = latch;
+assign bufen = latch;
 	wire isOutputting;
 	wire romExpansionActive; // 1 if the Yellowstone card's ROM is the currently selected slot ROM
 	//assign debugInfo = { romExpansionActive, rw, q3, isOutputting/*_devsel*/, _iosel, _iostrobe, _reset, spi_miso }; //{ romActive, 6'b000000, spi_miso };
@@ -40,12 +53,13 @@ module top(
 	
 		wire _romoe;
 	
-	//reg [1:0] en245Delay;
-	//always @(posedge fclk) begin
-	//	en245Delay <= { en245Delay[0], (~_devsel || ~_romoe) };
-	//end
+	reg [1:0] en245Delay;
+	always @(posedge fclk) begin
+		en245Delay <= { en245Delay[0], (~_devsel || ~_romoe) };
+	end
 
-	assign _en245 = ~(/*~q3 &&*//*(en245Delay == 2'b11) &&*/ (~_devsel || ~_romoe)); // IWM selected or ROM outputting
+	assign _en245 = ~(~q3 &&(en245Delay == 2'b11) && (~_devsel || ~_romoe)); // IWM selected or ROM outputting
+	//assign bufen = _en245;
 
 
 	// IMPORTANT! TO-DO
@@ -70,6 +84,9 @@ module top(
 	);
 	
 	wire [7:0] iwmDataOut;
+	wire [7:0] buffer2;
+
+	wire q6, q7, motor;
 
 	iwm myIwm(
 		.addr(addr[3:0]),
@@ -77,7 +94,7 @@ module top(
 		.fclk(fclk),
 		.q3(q3),
 		._reset(_reset),
-		.dataIn(data),
+		.dataIn(data_in),
 		.dataOut(iwmDataOut),
 		.wrdata(wrdata),
 		.phase(phase),
@@ -85,29 +102,76 @@ module top(
 		._enbl1(_enbl1),
 		._enbl2(_enbl2_from_iwm),
 		.sense(sense),
-		.rddata(rddata)
+		.rddata(rddata),
+		.q6w(q6),
+		.q7w(q7),
+		.motor(motor),
+		.buffer2(buffer2),
+		.q3orDev(latch)
 	);
+
+
+	wire latch;
 	 
 	wire [7:0] romOutput;
 	
 	codeROM myROM(
 		.clk(fclk), // use internal clock? 
 		.Address(addr[11:0]),
-		.Reset(1'b0), 
+		.Reset(0), 
 		.Q(romOutput)
 	);
 	
-	//reg [1:0] lastDataEnable;
+	reg [1:0] lastDataEnable;
 	
-	//always @(posedge fclk) begin
-	//	lastDataEnable <= { lastDataEnable[0], (rw == 1 && _romoe == 0) || (rw == 1 && _devsel == 0 && addr[0] == 0) };
-	//end
+	always @(posedge fclk) begin
+		lastDataEnable <= { lastDataEnable[0], (rw == 1 && _romoe == 0) || (rw == 1 && _devsel == 0 && addr[0] == 0) };
+	end
 	
 	// provide data from the card's ROM, or the IWM?
 	// IWM registers are read during any operation in which A0 is 0
 	assign isOutputting = (rw && ~_romoe) /*|| (rw == 1 && _devsel == 0 && addr[0] == 0)*/;
-	assign data = (/*lastDataEnable == 2'b11 &&*/ rw == 1 && _romoe == 0) ? romOutput :
-				  (/*lastDataEnable == 2'b11 &&*/ rw == 1 && _devsel == 0 && addr[0] == 0) ? iwmDataOut : 
-				  8'bZZZZZZZZ;
+	wire romOut = (lastDataEnable == 2'b11 && rw == 1 && _romoe == 0) || (/*lastDataEnable == 2'b11 &&*/ rw == 1 && _devsel == 0 && addr[0] == 0);
+	wire [7:0] dataOut = (lastDataEnable == 2'b11 && rw == 1 && _romoe == 0) ? romOutput :
+				  (lastDataEnable == 2'b11 && rw == 1 && _devsel == 0 && addr[0] == 0) ? iwmDataOut : 
+				  8'b0;
+
+	wire [7:0] data_in;
+	SB_IO #(
+		.PIN_TYPE(6'b 1010_01)
+	) sram_data_pins [7:0] (
+		.PACKAGE_PIN(data),
+		.OUTPUT_ENABLE(romOut),
+		.D_OUT_0(dataOut),
+		.D_IN_0(data_in)
+	);
+
+	wire [31:0] events;
+
+
+	reg [7:0] data_reg;
+
+	always @(posedge clk_100m) begin
+		data_reg <= data_in;
+	end
+
+	assign events[7:0] = iwmDataOut;
+	assign events[11:8] = phase;
+	assign events[12] = _reset;
+	assign events[13] = q6;
+	assign events[14] = q7;
+	assign events[15] = motor;
+	assign events[16] = fclk;
+	assign events[20:17] = addr[3:0];
+	assign events[21] = _iosel;
+	assign events[22] = _en245;
+	assign events[23] = latch;
+
+	sump2_top sump_i(
+		.clk_100m(clk_100m),
+		.ftdi_wi(rx),
+		.ftdi_ro(tx),
+		.events_din(events)
+	);
 
 endmodule

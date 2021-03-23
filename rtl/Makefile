@@ -7,7 +7,7 @@ PKG = ct256
 all: $(PROJ).bin
 	#iceprog $(PROJ).bin
 
-%.json: *.v
+%.json: *.v sump2/*.v
 	yosys -q -l synth.log -p 'synth_ice40 -top $(PROJ) -json $@' $^
 
 %.asc: $(PIN_DEF) %.json
@@ -15,10 +15,6 @@ all: $(PROJ).bin
 
 %.bin: %.asc
 	icepack $< $@
-
-
-%_syn.v: %.blif
-	yosys -p 'read_blif -wideports $^; write_verilog $@'
 
 clean:
 	rm -f $(PROJ).blif $(PROJ).json $(PROJ).asc $(PROJ).bin

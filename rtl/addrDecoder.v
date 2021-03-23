@@ -28,7 +28,7 @@ module addrDecoder(
 		if (histrobe)
 			romExpansionActive <= 0;
 		//else if (ioselHistory == 2'b00)
-		else if (~_iosel)
+		else
 			romExpansionActive <= 1;
 	end
 	

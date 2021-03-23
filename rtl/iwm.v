@@ -16,7 +16,10 @@ module iwm(
     output _enbl1,			   	// disk 1 enable
     output _enbl2,				// disk 2 enable
     input sense,				// input from disk, used for write protect or handshake, can be polled via status register
-    input rddata  				// serial data input - falling transition of each pulse is synchronized by IWM
+    input rddata,  				// serial data input - falling transition of each pulse is synchronized by IWM
+    output q6w, q7w,motor,
+    output reg [7:0] buffer2,
+    output q3orDev
     );
 
 	// internal private state
@@ -28,12 +31,15 @@ module iwm(
 	reg q6, q7;
 	reg _underrun;
 	reg writeBufferEmpty;
+	assign q6w = q6;
+	assign q7w = q7;
+	assign motor = motorOn;
 	
 	// state pseudo-register
 	// the bits in this register are individually addressed by A3-A1
 	// The data on A0 is latched into the addressed state bit by /DEV low [the falling edge of /DEV latches information on A0-A3]
 	// All bits are reset to 0 by _reset low
-	always @(negedge _devsel or negedge _reset) begin
+	always @(posedge fclk) begin
 		if (_reset == 0) begin
 			phase <= 4'b0000;
 			motorOn <= 0;
@@ -42,6 +48,7 @@ module iwm(
 			q7 <= 0;
 		end
 		else begin	
+			if (_devsel == 0) begin
 			case (addr[3:1])
 				3'h0: // ph0
 					phase[0] <= addr[0];
@@ -51,15 +58,16 @@ module iwm(
 					phase[2] <= addr[0];
 				3'h3: // ph3
 					phase[3] <= addr[0];
-				3'h4: // motor on	
+				3'h4: // motor on
 					motorOn <= addr[0];
 				3'h5: // drive select
 					driveSelect <= addr[0];
-				3'h6: // Q6 
+				3'h6: // Q6
 					q6 <= addr[0];
-				3'h7: // Q7 
+				3'h7: // Q7
 					q7 <= addr[0];
 			endcase
+		end
 		end
 	end
 	
@@ -149,41 +157,46 @@ module iwm(
 	// 0  1  x          read status register			Write-protect sense
 	// 1  0  x          read write-handshake reg 	Write
 	always @(*) begin
-		case ({q7,q6}) 
+		case ({q7,q6})
 			2'b00: // data-in register (from disk drive) - MSB is 1 when data is valid. Reads all 1's if motor is off.
-				dataOut <= buffer;
+				dataOut = buffer;
 			2'b01: // IWM status register 
-				dataOut <= { sense, 1'b0, motorOn, 5'b00111 /*mode*/ }; 
+				dataOut = { sense, 1'b0, motorOn, 5'b00111 }; 
 			default: // 2'b10 handshake register
-				dataOut <= { writeBufferEmpty, _underrun, 6'b000000 };
+				dataOut = { writeBufferEmpty, _underrun, 6'b000000 };
 		endcase
 	end
-		
+
 	// Mode and data register writes, disk serial I/O
 	// this assumes the mode register SCMHL is 00111
 	reg [1:0] rddataSync;
+	reg _dev = 0;
+	reg _dev_old = 0;
 	always @(posedge fclk) begin
 		rddataSync <= { rddataSync[0], rddata };
+		_dev <= _devsel;
+		_dev_old <= _dev;
 	end
-	
-	wire q3orDev = q3 | _devsel;
+
+	assign q3orDev = q3 |  _devsel;
 	reg [5:0] bitTimer; // max value 42
 	reg [2:0] bitCounter; // max value 7
 	reg [3:0] clearBufferTimer; // max value 14
-	always @(posedge fclk or negedge _reset) begin
+	always @(posedge fclk) begin
 		if (_reset == 0) begin
 			_underrun <= 1'b1;
 			writeBufferEmpty <= 1'b1;
 			bitCounter <= 0;
+			bitTimer <= 0;
 			buffer <= 0;
 			clearBufferTimer <= 0;
 			wrdata <= 0;
+			shifter <= 0;
 			//mode <= 5'b00000;
 		end
 		else begin
 			// READ FROM DISK
 			if (q7 == 0 && q6 == 0) begin
-				
 				if (clearBufferTimer == 0) begin
 					// if the timer isn't already running and there is a valid read from the data buffer?
 					if (_devsel == 0 && addr[0] == 0 && buffer[7] == 1'b1) begin
@@ -192,7 +205,7 @@ module iwm(
 				end
 				else begin
 					// have about 2 us elapsed since the last valid read from the buffer?
-					if (clearBufferTimer == 4'hE /* 14 FCLK periods */) begin
+					if (clearBufferTimer == 4'hE) begin
 						buffer[7] <= 0; // only the MSB really needs to be cleared. Saves some CPLD logic vs clearing the whole buffer.
 						clearBufferTimer <= 0; // stop the timer
 					end
@@ -260,7 +273,7 @@ module iwm(
 				// wrdata transition at start of a bit cell indicates a logical 1 bit
 				if (bitTimer == 1 && shifter[7] == 1) begin
 					wrdata <= ~wrdata;
-				end		
+				end
 			end
 			else begin
 				_underrun <= 1; // clear error when Q7 is 0
@@ -278,19 +291,25 @@ module iwm(
 			// diagrams looks like this will work.
 			if (q3orDev == 0 && q7 && q6 && addr[0]) begin
 				if (motorOn) begin
+					buffer2 <= dataIn; // data for disk write
 					buffer <= dataIn; // data for disk write
 					writeBufferEmpty <= 0;
-					writeBufferEmpty <= 0;
-				end
-				else begin
-					//mode <= data[4:0];
 				end
 			end
+			/*if (_dev_old == 0 && _dev == 1 && q7 && q6) begin
+				if (motorOn) begin
+					buffer <= dataIn; // data for disk write
+					buffer2 <= dataIn; // data for disk write
+					writeBufferEmpty <= 0;
+				end else
+					buffer <= 8'b0;
+			end*/
 		end
 	end
 	
+
 	// TODO: clear read buffer after a valid read
-	
+
 	// TODO: clear shifter at start of a read operation?
 	// TODO: set writeBufferEmpty at start of a write?
 endmodule
