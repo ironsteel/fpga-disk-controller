@@ -19,12 +19,17 @@ module iwm(
     input rddata,  				// serial data input - falling transition of each pulse is synchronized by IWM
     output q6w, q7w,motor,
     output reg [7:0] buffer2,
-    output q3orDev
+    output q3orDev,
+    output wire [5:0] timer,
+    output wire latch,
+    output reg [2:0] sync
     );
+    assign timer = bitWriteCounter;
 
 	// internal private state
 	//reg [4:0] mode; // we're ignoring all these
 	reg [7:0] shifter;
+	reg [7:0] writeShifter;
 	reg [7:0] buffer; // when Q6Q7 is 00, functions as read register. When Q7 is 1, write register.
 	reg motorOn;
 	reg driveSelect;
@@ -159,11 +164,13 @@ module iwm(
 	always @(*) begin
 		case ({q7,q6})
 			2'b00: // data-in register (from disk drive) - MSB is 1 when data is valid. Reads all 1's if motor is off.
-				dataOut = buffer;
+				dataOut <= buffer;
 			2'b01: // IWM status register 
-				dataOut = { sense, 1'b0, motorOn, 5'b00111 }; 
-			default: // 2'b10 handshake register
-				dataOut = { writeBufferEmpty, _underrun, 6'b000000 };
+				dataOut <= { sense, 1'b0, motorOn, 5'b00111 }; 
+			2'b10: // 2'b10 handshake register
+				dataOut <= { writeBufferEmpty, _underrun, 6'b000000 };
+			default: // 2'b11 handshake register
+				dataOut <= {  8'b000000 };
 		endcase
 	end
 
@@ -174,13 +181,23 @@ module iwm(
 	reg _dev_old = 0;
 	always @(posedge fclk) begin
 		rddataSync <= { rddataSync[0], rddata };
-		_dev <= _devsel;
+		_dev <= q6;
 		_dev_old <= _dev;
 	end
 
-	assign q3orDev = q3 |  _devsel;
+	assign latch =  (q3orDev == 0) && q7 && q6 && addr[0] && motorOn;
+	assign q3orDev =  _devsel;
+	always @(posedge fclk) begin 
+		if (latch) begin
+			sync <= sync + 1;
+		end else
+			sync <= 0;
+	end
+
 	reg [5:0] bitTimer; // max value 42
+	reg [5:0] bitWriteTimer; // max value 42
 	reg [2:0] bitCounter; // max value 7
+	reg [2:0] bitWriteCounter; // max value 7
 	reg [3:0] clearBufferTimer; // max value 14
 	always @(posedge fclk) begin
 		if (_reset == 0) begin
@@ -188,6 +205,8 @@ module iwm(
 			writeBufferEmpty <= 1'b1;
 			bitCounter <= 0;
 			bitTimer <= 0;
+			bitWriteTimer <= 0;
+			bitWriteCounter <= 0;
 			buffer <= 0;
 			clearBufferTimer <= 0;
 			wrdata <= 0;
@@ -243,40 +262,44 @@ module iwm(
 			end
 			// WRITE TO DISK
 			if (q7 == 1'b1) begin
-				
 				// is it time for a new bit?
-				if (bitTimer == 28) begin
-					bitTimer <= 0;
+				if (bitWriteTimer == 28) begin
+					bitWriteTimer <= 0;
 					// is the entire byte done?
-					if (bitCounter == 7) begin
-						bitCounter <= 0;
+					if (bitWriteCounter == 7) begin
+						bitWriteCounter <= 0;
 						// is there a new byte ready?
 						if (writeBufferEmpty == 0) begin
 							// move the next byte into the shifter
-							shifter <= buffer;
+							writeShifter <= buffer;
+							buffer2 <= buffer;
+							//buffer2 <= buffer;
 							writeBufferEmpty <= 1'b1;						
 						end
 						else begin
 							_underrun <= 0; // error						
-						end		
+						end
 					end
 					else begin
 						// there are still more bits remaining, so shift the next bit
-						bitCounter <= bitCounter + 1'b1;
-						shifter <= { shifter[6:0], 1'b0 }; // left shift
+						bitWriteCounter <= bitWriteCounter + 1'b1;
+						writeShifter <= { writeShifter[6:0], 1'b0 }; // left shift
 					end
 				end
 				else begin
-					bitTimer <= bitTimer + 1'b1;
+					bitWriteTimer <= bitWriteTimer + 1'b1;
 				end
 				
 				// wrdata transition at start of a bit cell indicates a logical 1 bit
-				if (bitTimer == 1 && shifter[7] == 1) begin
+				if (bitWriteTimer == 1 && writeShifter[7] == 1) begin
 					wrdata <= ~wrdata;
 				end
 			end
 			else begin
 				_underrun <= 1; // clear error when Q7 is 0
+				//bitWriteTimer <= 28;
+				//bitWriteCounter <= 7;
+				//writeShifter <= 0;
 			end
 			
 			// WRITE REGISTERS
@@ -289,20 +312,20 @@ module iwm(
 			// by both FCLK and (Q3 or _devsel). Instead we'll perform a register write at any FCLK
 			// edge when (Q3 or _devsel) is low, treating it like a load enable. A review of timing 
 			// diagrams looks like this will work.
-			if (q3orDev == 0 && q7 && q6 && addr[0]) begin
-				if (motorOn) begin
+			//if (q3orDev == 0 && q7 && q6 && addr[0]) begin
+			if (sync == 3) begin
 					buffer2 <= dataIn; // data for disk write
 					buffer <= dataIn; // data for disk write
 					writeBufferEmpty <= 0;
-				end
+					//bitTimer <= 0;
+					//bitCounter <= 0;
 			end
-			/*if (_dev_old == 0 && _dev == 1 && q7 && q6) begin
+			/*if (_dev_old == 0 && _dev == 1) begin
 				if (motorOn) begin
-					buffer <= dataIn; // data for disk write
 					buffer2 <= dataIn; // data for disk write
-					writeBufferEmpty <= 0;
-				end else
-					buffer <= 8'b0;
+				//buffer2 <= dataIn; // data for disk write
+				//writeBufferEmpty <= 0;
+				end
 			end*/
 		end
 	end

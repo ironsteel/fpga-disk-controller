@@ -4,7 +4,7 @@
 module top(
 	// bus interface
 	input clk_100m,
-	input [11:0] addr,
+	input [11:0] addr_in,
 	input fclk, // Clock for serial communication, either 7 or 8 MHz (7 MHz on Apple II)
 	input q3, // 2 MHz non-symmetric timing signal
 	inout [7:0] data,
@@ -42,10 +42,10 @@ module top(
 	input btn
     );
 
-assign iostrobe_n = latch;
-assign iosel_n = latch;
-assign devsel_n = latch;
-assign bufen = latch;
+	assign iostrobe_n = latch;
+	assign iosel_n = latch;
+	assign devsel_n = latch;
+	assign bufen = latch;
 	wire isOutputting;
 	wire romExpansionActive; // 1 if the Yellowstone card's ROM is the currently selected slot ROM
 	//assign debugInfo = { romExpansionActive, rw, q3, isOutputting/*_devsel*/, _iosel, _iostrobe, _reset, spi_miso }; //{ romActive, 6'b000000, spi_miso };
@@ -107,9 +107,14 @@ assign bufen = latch;
 		.q7w(q7),
 		.motor(motor),
 		.buffer2(buffer2),
-		.q3orDev(latch)
+		.timer(bitTimer),
+		.latch(latch),
+		.sync(sync)
 	);
 
+	wire [2:0] sync;
+	wire underrun;
+	wire [5:0] bitTimer;
 
 	wire latch;
 	 
@@ -131,7 +136,7 @@ assign bufen = latch;
 	// provide data from the card's ROM, or the IWM?
 	// IWM registers are read during any operation in which A0 is 0
 	assign isOutputting = (rw && ~_romoe) /*|| (rw == 1 && _devsel == 0 && addr[0] == 0)*/;
-	wire romOut = (lastDataEnable == 2'b11 && rw == 1 && _romoe == 0) || (/*lastDataEnable == 2'b11 &&*/ rw == 1 && _devsel == 0 && addr[0] == 0);
+	wire romOut = (lastDataEnable == 2'b11 && rw == 1 && _romoe == 0) || (lastDataEnable == 2'b11 && rw == 1 && _devsel == 0 && addr[0] == 0);
 	wire [7:0] dataOut = (lastDataEnable == 2'b11 && rw == 1 && _romoe == 0) ? romOutput :
 				  (lastDataEnable == 2'b11 && rw == 1 && _devsel == 0 && addr[0] == 0) ? iwmDataOut : 
 				  8'b0;
@@ -146,26 +151,34 @@ assign bufen = latch;
 		.D_IN_0(data_in)
 	);
 
+	wire [11:0] addr;
+
+	/*SB_IO #(
+		.PIN_TYPE(6'b 1010_01)
+	) addrpins [11:0] (
+		.PACKAGE_PIN(addr_in),
+		.OUTPUT_ENABLE(1'b0),
+		.D_OUT_0(),
+		.D_IN_0(addr)
+	);*/
+
+        assign addr = addr_in;
+
 	wire [31:0] events;
 
 
-	reg [7:0] data_reg;
-
-	always @(posedge clk_100m) begin
-		data_reg <= data_in;
-	end
-
-	assign events[7:0] = iwmDataOut;
-	assign events[11:8] = phase;
-	assign events[12] = _reset;
+	assign events[7:0] = buffer2;
+	assign events[11:8] = sync;
+	assign events[12] = latch;
 	assign events[13] = q6;
 	assign events[14] = q7;
-	assign events[15] = motor;
+	assign events[15] = wrdata;
 	assign events[16] = fclk;
-	assign events[20:17] = addr[3:0];
+	assign events[22:17] = bitTimer;
+	/*assign events[20:17] = addr[3:0];
 	assign events[21] = _iosel;
 	assign events[22] = _en245;
-	assign events[23] = latch;
+	assign events[23] = latch;*/
 
 	sump2_top sump_i(
 		.clk_100m(clk_100m),
