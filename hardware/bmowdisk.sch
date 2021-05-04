@@ -1666,48 +1666,8 @@ Text Label 7900 8500 0    48   ~ 0
 D0
 Text Label 6000 9500 0    48   ~ 0
 EN245
-Text Label 3900 9400 0    48   ~ 0
+Text Label 4750 9400 0    48   ~ 0
 RW
-$Comp
-L bmowdisk-eagle-import:RESISTOR0805-RES R1
-U 1 1 62D0D96F
-P 4550 9400
-F 0 "R1" H 4400 9459 59  0000 L BNN
-F 1 "2K2" H 4400 9270 59  0000 L BNN
-F 2 "bmowdisk:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4550 9400 50  0001 C CNN
-F 3 "" H 4550 9400 50  0001 C CNN
-	1    4550 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L bmowdisk-eagle-import:RESISTOR0805-RES R3
-U 1 1 62D0D975
-P 4750 9850
-F 0 "R3" H 4600 9909 59  0000 L BNN
-F 1 "3K3" H 4600 9720 59  0000 L BNN
-F 2 "bmowdisk:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4750 9850 50  0001 C CNN
-F 3 "" H 4750 9850 50  0001 C CNN
-	1    4750 9850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4750 9400 4750 9650
-Wire Wire Line
-	3800 9400 4350 9400
-Connection ~ 4750 9400
-$Comp
-L bmowdisk-eagle-import:GND #GND0116
-U 1 1 62D0D97F
-P 4750 10300
-F 0 "#GND0116" H 4750 10300 50  0001 C CNN
-F 1 "GND" H 4650 10200 59  0000 L BNN
-F 2 "" H 4750 10300 50  0001 C CNN
-F 3 "" H 4750 10300 50  0001 C CNN
-	1    4750 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 10050 4750 10200
 Wire Wire Line
 	4750 9400 6500 9400
 Wire Wire Line
